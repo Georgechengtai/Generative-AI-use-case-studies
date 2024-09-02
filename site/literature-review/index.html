@@ -1,0 +1,1216 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://Georgechengtai.github.io/my-project/literature-review/">
+      
+      
+        <link rel="prev" href="../palearning/">
+      
+      
+        <link rel="next" href="../sen/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Literature Review - Generative AI Use Case Studies</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#wide-usage-of-llms-in-diverse-educational-nlp-applications" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Generative AI Use Case Studies" class="md-header__button md-logo" aria-label="Generative AI Use Case Studies" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Generative AI Use Case Studies
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Literature Review
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../gpt4o/" class="md-tabs__link">
+          
+  
+  Catching up with Generative AI Development
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../psychology/" class="md-tabs__link">
+          
+  
+  Discipline-Specific Studies
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../content-creation/" class="md-tabs__link">
+          
+  
+  Functionalities and Applications
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Generative AI Use Case Studies" class="md-nav__button md-logo" aria-label="Generative AI Use Case Studies" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Generative AI Use Case Studies
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Catching up with Generative AI Development
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Catching up with Generative AI Development
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gpt4o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GPT-4o (OpenAI)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multimodality/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Multimodality
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aivideo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI Video - AI Avatars & Voice Cloning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../search-engine/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI-powered Search Engines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../virtual-character/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scenario-based Learning with lifelike Virtual Characters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../palearning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personalised and Adaptive Learning
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Literature Review
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Literature Review
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wide-usage-of-llms-in-diverse-educational-nlp-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wide usage of LLMs in diverse educational NLP applications.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potential-use-cases-in-social-science-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Potential Use Cases in Social Science Environment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Potential Use Cases in Social Science Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-no-code-ai-to-harness-the-power-of-machine-learning-data-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using No-Code AI to Harness the Power of Machine Learning Data Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-and-efficient-analysis-on-qualitative-data-in-social-science-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick and Efficient Analysis on Qualitative Data in Social Science Research
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-agent-system-study-missing-an-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-Agent System Study Missing an Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brief-mention-of-other-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brief Mention of Other Use Cases
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For SEN (Special Educational Needs) students
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Discipline-Specific Studies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Discipline-Specific Studies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psychology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Psychology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../social-work/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Work
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sociology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sociology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../journalism-and-communication/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Journalism and Communication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Functionalities and Applications
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Functionalities and Applications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../content-creation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Content Creation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../grading-and-feedback/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grading and Feedback
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../virtual-patient-simulation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Virtual Patient Simulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mentor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI mentors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wide-usage-of-llms-in-diverse-educational-nlp-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wide usage of LLMs in diverse educational NLP applications.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potential-use-cases-in-social-science-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Potential Use Cases in Social Science Environment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Potential Use Cases in Social Science Environment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-no-code-ai-to-harness-the-power-of-machine-learning-data-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using No-Code AI to Harness the Power of Machine Learning Data Analysis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-and-efficient-analysis-on-qualitative-data-in-social-science-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quick and Efficient Analysis on Qualitative Data in Social Science Research
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-agent-system-study-missing-an-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-Agent System Study Missing an Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brief-mention-of-other-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brief Mention of Other Use Cases
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Literature Review</h1>
+
+<hr />
+<p>Source of IMG: Survey of Natural Language Processing for Education: Taxonomy, Systematic Review, and Future Trends
+![[Pasted image 20240627155125.png]]
+![[Pasted image 20240627161054.png]]</p>
+<h3 id="wide-usage-of-llms-in-diverse-educational-nlp-applications">Wide usage of LLMs in diverse educational NLP applications.</h3>
+<ul>
+<li>Natural Language Processing (NLP) refers to the branch of computer science and artificial intelligence, that empowers computers the ability to understand text and spoken words as the way human beings can.</li>
+<li>NLP techniques have significantly revolutionized various domains, including healthcare, commerce, and notably, education. </li>
+<li>The survey by Lan et al. (2023) highlights the transformative impact of NLP in educational settings, where it aids in tasks such as automated assessment, error correction, and intelligent tutoring. The integration of NLP in education fosters personalized learning experiences, enhances student engagement, and streamlines administrative tasks. </li>
+<li>Building on this foundation, recent advancements in AI have introduced generative models like ChatGPT, which serve as virtual teaching assistants in programming education, providing personalized assistance and clarifying complex concepts (Liu &amp; M'hiri, 2024). Additionally, LLM-assisted human evaluation experiments show that novice graders can achieve expert-level accuracy, enhancing grading efficiency (Xiao, 2024). AI-driven personalized learning experiences further adapt to individual student needs, fostering dynamic and adaptive learning environments (Wu, 2024). </li>
+<li>Moreover, the introduction of accessible generative artificial intelligence opens promising opportunities for personalized learning methods in education,  as a tool that generates learning materials in multiple formats and includes progress-assessment quizzes, showing increased student engagement and study time, though findings are preliminary due to a small sample size (Pesovski, 2024).</li>
+</ul>
+<h3 id="potential-use-cases-in-social-science-environment">Potential Use Cases in Social Science Environment</h3>
+<h4 id="using-no-code-ai-to-harness-the-power-of-machine-learning-data-analysis">Using No-Code AI to Harness the Power of Machine Learning Data Analysis</h4>
+<ul>
+<li>Leif Su and Jonny Holmstrom (2024) explore the application of a no-code AI platform within an educational framework that emphasizes problem-centered learning, activation, demonstration, application, and integration. This framework aims to make machine learning (ML) accessible to students from diverse educational backgrounds who may not have technical expertise. By leveraging no-code AI tools, the authors demonstrate how students can engage with ML concepts and create value from data without needing extensive programming skills.</li>
+</ul>
+<h4 id="quick-and-efficient-analysis-on-qualitative-data-in-social-science-research">Quick and Efficient Analysis on Qualitative Data in Social Science Research</h4>
+<ul>
+<li>Ion Lixandru (2024) presents a compelling case for using generative AI tools like ChatGPT in social science research. The study highlights how ChatGPT can significantly accelerate the process of qualitative data analysis. By analyzing data from a focus group of 8 respondents, the study found that the instructed AI-generated analysis closely matched traditional methods. This demonstrates that AI can be a reliable tool for interpreting qualitative information. The AI’s synthesis capability allows researchers to pre-process complex raw texts efficiently, making it a valuable asset in the current academic and research context.</li>
+</ul>
+<h4 id="multi-agent-system-study-missing-an-example">Multi-Agent System Study <mark>Missing an Example</mark></h4>
+<h3 id="brief-mention-of-other-use-cases">Brief Mention of Other Use Cases</h3>
+<p>The following examples illustrate how AI is making significant strides across various educational disciplines. This list is not exhaustive and only includes papers collected from open-source rather than proprietary content.
+- <strong>Showcasing a Functional Outcome in Game Development</strong>: Fiona French (2023) explores the integration of OpenAI tools like ChatGPT and DALL-E in game development education at London Metropolitan University. A cohort of games programming students was tasked with evaluating these tools in a research and development assignment. They demonstrated working solutions and reported their findings, showcasing outputs that enhanced their programming, problem-solving, and exploratory design skills.
+- <strong>AI-Assisted Creation of Diverse Medical Case Vignettes</strong>: M. Bakkum (2023) demonstrates how AI can accelerate the creation of diverse medical case scenarios, offering inclusive educational resources for medical training.
+- <strong>AI Generative Art in 3D Design Studio Art Course</strong>: James Hutson &amp; Bryan Robertson (2023) presents a study on integrating AI generative art tools in a traditional 3D design studio art course. The research explores how AI tools like Craiyon and DALLE-2 can enhance creative workflows and prompt engineering. Students were tasked with using these AI tools to generate verbal cues, combining three different objects into new 3D sculptures or models.
+- <strong>AI Educational Video Assistant Modules: Rana Al-Shaikh (2024)</strong> investigates the integration of AI tools like OpenAI's Whisper and Google's Bard to enhance educational videos through transcription, engagement, and reinforcement techniques.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Topic</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Tldr Abstract (AI generated!)</strong></th>
+<th><strong>Authors &amp; Year</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>AI-based Virtual Teaching Assistants in Programming Education</strong></td>
+<td>Generative AI-powered virtual TAs for programming education, providing personalized assistance.</td>
+<td>"The virtual TA assists students with their code and clarifies complex concepts.", "We investigate the feasibility of employing GPT-3.5 as a virtual TA in CS courses."</td>
+<td>Meng Liu &amp; Faten M'hiri 2024</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>"This system would use Generative AI to generate personalized adaptive learning materials for individual learners.", "A new type of adaptive intelligent tutoring system can be developed to improve understanding and performance in programming education."</td>
+<td>Myungjae Kwak 2023</td>
+</tr>
+<tr>
+<td><strong>LLM-assisted human evaluation experiments for grading enhancement</strong></td>
+<td>Experiments where LLMs assist novice and expert graders, enhancing accuracy and efficiency.</td>
+<td>"We undertake LLM-assisted human evaluation experiments involving both novice and expert graders.", "Novice graders achieve accuracy on par with experts, while experts maintain greater consistency."</td>
+<td>Changrong Xiao 2024</td>
+</tr>
+<tr>
+<td><strong>AI-Enhanced Personalized Learning Experiences</strong></td>
+<td>AI creates tailored educational content and adaptive learning for students</td>
+<td>"AI fosters dynamic, personalized, and adaptive learning experiences.", "Generative AI reshapes teaching and learning dynamics, enhancing the processing of complex data sets and nurturing critical thinking skills."</td>
+<td>Suhan Wu 2024</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>"Instructors can use AI to build learning and assessment materials in a variety of media.", "Generative AI offers significant opportunities for language learning."</td>
+<td>Robert Godwin-Jones 2024</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>"Technological advancements improve educational opportunities and streamline administrative duties.", "Educational applications of generative AI include content creation, personalized learning, administrative work automation, interactive learning environments, feedback and evaluation, NLP, forecasting and prediction, and collaborative learning."</td>
+<td>Archana Balkrishna Yadav 2024</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>"Lessons contained automatically generated multiple-choice questions for students to check their progress."</td>
+<td>Ivica Pesovski 2024</td>
+</tr>
+</tbody>
+</table>
+<p><mark>Use Cases</mark></p>
+<table>
+<thead>
+<tr>
+<th><strong>Topic</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Tldr Abstract (AI generated!)</strong></th>
+<th><strong>Authors &amp; Year</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Application of a Framework Using No-Code AI</strong></td>
+<td>Applying a framework with principles of problem-centered learning, activation, demonstration, application, and integration in an educational setting using a no-code AI platform.</td>
+<td>“ML is useful for organizations seeking to create value from data. Incorporating training in the use of ML into non-technical educational programs is challenging.”, “We present an approach using no-code AI in a course for university students with diverse educational backgrounds.”</td>
+<td>Leif Su &amp; Jonny Holmstrom 2024</td>
+</tr>
+<tr>
+<td><strong>Generative AI in Social Science Research</strong></td>
+<td>Utilizing AI tools like ChatGPT for qualitative data analysis and research acceleration in social science studies.</td>
+<td>“ChatGPT accelerates the analysis process, providing results in a much shorter timeframe compared to traditional methods.”, “The generative AI’s synthesis capability facilitates efficient handling of complex texts for researchers and analysts.”</td>
+<td>Ion Lixandru 2024</td>
+</tr>
+<tr>
+<td><strong>Game Development Case Studies</strong></td>
+<td>Enhancing the capacity for critical analysis and evaluation. Demonstrating a working solution in game development.</td>
+<td>“Games programming students engaged with OpenAI tools in the context of game development.”, “This mode of assessment was productive and popular, helping to refine skills in programming, problem-solving, critical reflection, and exploratory design.”<br>“Educators and students are interested in generative AI technologies to support learning outcomes.”</td>
+<td>Fiona French 2023</td>
+</tr>
+<tr>
+<td><strong>AI-Assisted Creation of Diverse Medical Case Vignettes</strong></td>
+<td>Utilizing AI technology to generate inclusive and diverse medical case scenarios for educational purposes.</td>
+<td>“Our approach significantly accelerated case creation and improved diversity.”, “We aim to share all created patients as Open Educational Resources (OER), empowering educators to create cases independently.”</td>
+<td>M. Bakkum 2023</td>
+</tr>
+<tr>
+<td><strong>AI Generative Art in 3D Design Studio Art Course</strong></td>
+<td>The use of AI generative art for a traditional 3D design studio art course to determine process changes and potential benefits of the new technology.</td>
+<td>“The case study proposed using AI generative art for a traditional 3D design studio art course.”, “This study examines prompt engineering and creative workflows in AI generative art.”</td>
+<td>James Hutson &amp; Bryan Robertson 2023</td>
+</tr>
+<tr>
+<td><strong>Perspective-taking and Role-playing in Social Science Education</strong> <mark>BattleAgent</mark></td>
+<td>Utilizing AI to facilitate role-playing scenarios and perspective-taking exercises for enhanced understanding in social science education.</td>
+<td>"It emulates both the decision-making processes of leaders and the viewpoints of ordinary participants.", "Presents BattleAgent, an emulation system combining the Large Vision-Language Model and Multi-agent System."</td>
+<td>Shuhang Lin 2024</td>
+</tr>
+<tr>
+<td><strong>AI Educational Video Assistant Modules</strong></td>
+<td>Various modules within an AI system designed to enhance learning through transcription, engagement, and reinforcement techniques.</td>
+<td>"Integrates Automatic Speech Recognition (ASR) using OpenAI's Whisper and Google's LLM Bard.", "Investigates the potential benefits of Generative AI in education, focusing on an AI Educational Video Assistant for multimodal learning."</td>
+<td>Rana Al-Shaikh 2024</td>
+</tr>
+<tr>
+<td><strong>AI-powered teaching assistant <mark>Syntea</mark></strong></td>
+<td>an AI-powered teaching assistant used to increase the speed of learning in university students</td>
+<td>"In this study, we present first evidence that generative AI can increase the speed of learning substantially in university students.", "We tested whether using the AI-powered teaching assistant Syntea affected the speed of learning of hundreds of distance learning students across more than 40 courses at the IU International University of Applied Sciences."<br></td>
+<td>Moritz Möller 2024</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href="https://www.cuhk.edu.hk" target="_blank" rel="noopener">Faculty of Social Science, CUHK</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>

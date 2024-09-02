@@ -1,4 +1,5 @@
 site_name: Generative AI Use Case Studies
+site_url: https://Georgechengtai.github.io/my-project/
 nav:
   - Home: index.md
   - Catching up with Generative AI Development:
