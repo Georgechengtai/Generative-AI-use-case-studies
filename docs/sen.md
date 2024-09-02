@@ -1,0 +1,38 @@
+### Introduction
+The integration of generative AI into education presents significant opportunities to enhance support for students with Special Educational Needs (SEN). Traditional methods, such as physical notetakers and closed-captioning, have been instrumental but often fall short due to human error and logistical limitations. Generative AI introduces new possibilities by offering real-time transcription, adaptive text-to-speech tools, and personalised study materials. These AI-driven solutions improve accessibility and foster greater academic autonomy and participation for SEN students. As AI becomes increasingly embedded in educational practices, it has the potential to create more inclusive learning environments, better meeting the diverse needs of SEN students and promoting equity in educational outcomes.
+### Common Primary Needs for SEN Students
+Below is a short list of common primary needs for students with Special Educational Needs (SEN):
+1. **Autism Spectrum Disorder (ASD)**
+2. **Dyslexia**
+3. **Attention Deficit Hyperactivity Disorder (ADHD)**
+4. **Speech, Language and Communication Needs (SLCN)**
+5. **Social, Emotional, and Mental Health (SEMH)**
+6. **Moderate Learning Difficulties (MLD)**
+7. **Specific Learning Difficulties (SpLD)**
+8. **Physical Disability (PD)**
+9. **Hearing Impairment (HI)**
+10. **Visual Impairment (VI)**
+### AI in Practice: Goodwin University
+Goodwin University is leveraging AI to enhance accessibility and support neurodiversity. The Office of AccessAbility, led by Molly Zatony, focuses on educational equity by providing tools and accommodations for neurodivergent students. Goodwin’s approach aligns with Universal Design for Learning (UDL), ensuring lessons are accessible from the outset.
+### Effective AI Tools at Goodwin University
+- **Dragon Speech Recognition**: Aids in reading and writing through speech-to-text and text-to-speech capabilities.
+- **Canvas Screen Readers**: Help students understand assignments and texts.
+- **GitMind**: Assists in note-taking and organising thoughts into flow charts.
+- **AI-Powered Assistants**: Tools like Alexa help manage tasks without distractions.
+### The Role of Generative AI in Enhancing SEN Support
+Goodwin University uses traditional AI tools to support SEN students by providing essential accommodations, such as speech-to-text and text-to-speech applications. However, **generative AI** has the potential to further enhance this support by offering real-time transcription, personalised study materials, and adaptive learning experiences. This evolution can lead to even greater academic autonomy and inclusivity for SEN students, making learning more tailored and effective.
+
+Generative AI, like ChatGPT, offers transformative potential for students with Special Educational Needs (SEN). Its capabilities can address challenges that traditional methods cannot fully overcome.
+### Enhancements and Opportunities
+- **Personalised Learning**: AI can tailor educational content to meet individual learning styles and needs, providing customised support for students with dyslexia, ADHD, and other learning disabilities.
+- **Real-Time Assistance**: Tools like ChatGPT can offer instant feedback and assistance, aiding in tasks such as writing, organising thoughts, and understanding complex concepts. This can be particularly beneficial for students with dyslexia by simplifying information and providing structured outlines.
+- **Skill Development**: While concerns about over-reliance exist, AI can be integrated thoughtfully to encourage skill development. By using AI as a supplement rather than a replacement, students can engage in critical thinking and independent learning.
+- **Accessibility and Inclusivity**: AI-driven tools can break down language barriers and make learning more equitable. Features like text-to-speech and speech-to-text can enhance accessibility for students with hearing or visual impairments.
+### Conclusion
+The integration of generative AI in education holds promise for creating more inclusive and supportive learning environments for SEN students. By leveraging AI's capabilities, we can enhance educational equity and empower students to achieve their full potential.
+
+
+Reference
+- [AI for Disability Services Centers at Universities/Colleges](https://quicktakes.io/blog/how-can-ai-close-the-gap-for-students-with-disabilities#)
+- [Using AI for Accessibility and Neurodiversity | Goodwin University](https://www.goodwin.edu/enews/artificial-intelligence-and-accessibility/)
+- [ChatGPT for students with Dyslexia? Expert Opinion: Examining the use of ChatGPT as an Assistive Technology Tool for Students with Learning Disabilities](https://on.dystinct.org/chatgpt-learning-disability-assistive-technology-expert-opinion/)
