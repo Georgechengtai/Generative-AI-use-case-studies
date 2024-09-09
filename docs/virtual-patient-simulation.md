@@ -56,6 +56,18 @@ With the power of GPT custom models (GPTs), teachers and students can establish 
 ![[Pasted image 20240729143900.png]]
 Check [A conversation with Social Work Professor GPT and Patient Bob](https://chatgpt.com/share/a4f0a263-4524-46bd-9931-9ec8031395cd) – we created this conversation within 2 minutes that involves two different GPTs. (Required VPN for access)
 
+## Final Remarks
+
+It's important to note that the materials provided in this document offer only a limited demonstration of how to create virtual characters using custom GPT or most Large Language Models (LLMs). While these examples showcase the potential of generative AI in creating interactive virtual patients for educational purposes, they represent just the tip of the iceberg in terms of what's possible.
+
+For more advanced and immersive virtual character experiences, additional equipment and resources would be necessary, such as:
+
+1. VR Goggles: To create truly immersive 3D environments where students can interact with virtual patients in a more realistic setting.
+2. Shooting Equipment for Photography: To capture high-quality images and video of real people that can be used as a basis for more lifelike virtual characters.
+3. VFX Studio: For creating sophisticated visual effects, animations, and realistic 3D models of virtual patients.
+
+
+
 ### Appendix/Reference
 
 #### Literature Review

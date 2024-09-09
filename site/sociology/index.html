@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://Georgechengtai.github.io/my-project/sociology/">
+        <link rel="canonical" href="https://Georgechengtai.github.io/Generative-AI-use-case-studies/sociology/">
       
       
         <link rel="prev" href="../social-work/">
       
       
-        <link rel="next" href="../journalism-and-communication/">
+        <link rel="next" href="../content-creation/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -55,7 +55,16 @@
     
     
     
-  </head>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -244,7 +253,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../psychology/" class="md-tabs__link">
+        <a href="../journalism-and-communication/" class="md-tabs__link">
           
   
   Discipline-Specific Studies
@@ -593,6 +602,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../journalism-and-communication/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Journalism and Communication
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../psychology/" class="md-nav__link">
         
   
@@ -753,27 +783,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../journalism-and-communication/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Journalism and Communication
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1144,5 +1153,7 @@ This experimental approach highlighted the need for critical reflection on AI's 
       <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

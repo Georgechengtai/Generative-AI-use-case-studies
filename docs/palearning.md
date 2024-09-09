@@ -1,11 +1,73 @@
+# Personalised and Adaptive Learning
 
-### Personalised and Adaptive Learning
+## Introduction
+
 AI enhances personalised learning by analysing student data to tailor educational experiences. It adapts content, pacing, and support to individual needs, moving beyond traditional one-size-fits-all approaches. This enables more inclusive and effective education for diverse learners.
 
-AI integration enhances established adaptive learning platforms, providing personalised experiences. Knewton tailors learning using data analytics, while Cognii offers AI-driven feedback and assessment. These platforms were developed and gained prominence before the recent boom in generative AI.
+## AI-Enhanced Adaptive Learning Platforms
 
-Duolingo has revolutionised language learning through its adaptive approach, adjusting lesson difficulty based on user performance. In March 2023, Duolingo introduced Duolingo Max, a new AI-powered subscription tier utilizing GPT-4 technology. Duolingo Max offers two key features: "Explain My Answer," which provides detailed explanations for learners' responses, and "Roleplay," which allows learners to practice real-world conversations with AI-powered characters.
+AI integration enhances established adaptive learning platforms, providing personalised experiences. Examples include:
 
-In May 2023, Khan Academy introduced Khanmigo, an AI-powered tool designed to enhance learning experiences. Khanmigo offers personalised support for teachers, simplifying workflows while maintaining privacy and security. For students, it promotes critical thinking and problem-solving across various subjects without providing direct answers. One year after, Khan Academy partnered with Microsoft to expand access to AI tools in education. This collaboration includes free access to Khanmigo for Teachers for all U.S. K-12 educators and integration of Khan Academy content into Microsoft Copilot and Teams for Education.
+- **Knewton**: Tailors learning using data analytics
+- **Cognii**: Offers AI-driven feedback and assessment
 
-Note: Many successful adaptive/personalised learning systems are based on knowledge engineering where necessary data, models, and parameters are provided by domain experts rather than "learned" from data. Besides, machine learning needs some considerable volume of data to work. In many cases the right volume of data might simply not be available. One of the reasons why LLMs excel at solving coding problems is because they can be trained on the big data from Github and Stack Overflow.
+These platforms were developed and gained prominence before the recent boom in generative AI.
+
+## Duolingo's AI-Powered Language Learning
+
+<figure markdown="span">
+  ![Duolingo Max](images/DuolingoMax.png){ loading=lazy }
+  <figcaption>Duolingo Max - Retrieved from <a href="https://blog.duolingo.com/duolingo-max/" target="_blank" rel="noopener">Duolingo Blog</a> </figcaption>
+</figure>
+
+Duolingo has revolutionised language learning through its adaptive approach, adjusting lesson difficulty based on user performance. 
+
+### Duolingo Max
+
+In March 2023, Duolingo introduced Duolingo Max, a new AI-powered subscription tier utilising GPT-4 technology. Duolingo Max offers two key features:
+
+1. **Explain My Answer**: Provides detailed explanations for learners' responses
+2. **Roleplay**: Allows learners to practise real-world conversations with AI-powered characters
+
+## Khan Academy's AI Initiatives
+
+### Khanmigo
+
+<figure markdown="span">
+  ![Khanmigo](images/khanmigo.png){ loading=lazy }
+  <figcaption>Khanmigo - Retrieved from <a href="https://districts.khanacademy.org/khanmigo" target="_blank" rel="noopener">Khan Academy</a> </figcaption>
+</figure>
+
+In May 2023, Khan Academy introduced Khanmigo, an AI-powered tool designed to enhance learning experiences. Khanmigo offers:
+
+- **For teachers**: Personalised support, simplifying workflows whilst maintaining privacy and security
+- **For students**: Promotes critical thinking and problem-solving across various subjects without providing direct answers
+
+### Partnership with Microsoft
+
+One year after Khanmigo's introduction, Khan Academy partnered with Microsoft to expand access to AI tools in education. This collaboration includes:
+
+- Free access to Khanmigo for Teachers for all U.S. K-12 educators
+- Integration of Khan Academy content into Microsoft Copilot and Teams for Education
+
+## Considerations on Building Learning Systems
+
+Many successful adaptive/personalised learning systems are based on knowledge engineering where necessary data, models, and parameters are provided by domain experts rather than "learnt" from data. 
+
+Important considerations:
+
+- Machine learning needs a considerable volume of data to work
+- In many cases, the right volume of data might not be available
+- LLMs excel at solving coding problems due to the availability of big data from sources like Github and Stack Overflow
+
+## Final Remarks
+
+The AI tools and platforms mentioned in this document are **for reference only**. To refine your workflow or teaching plan, it's essential to:
+
+1. Evaluate your specific needs and goals
+2. Research and identify AI tools that align with your objectives
+3. Consider the practicality and feasibility of integrating these tools into your existing processes
+4. Assess the potential impact on student learning outcomes
+5. Plan for a gradual implementation and continuous evaluation
+
+Remember, the most effective use of AI in education comes from thoughtful integration tailored to your unique educational context and student needs. Experiment with different tools and approaches to find the best fit for your teaching style and your students' learning requirements.
