@@ -50,8 +50,7 @@ theme:
   favicon: images/favicon.png
   language: en
   font:
-    text: "Roboto"
-    code: "Fira Code"
+    text: false
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -76,7 +75,8 @@ plugins:
   - search
   - glightbox
   - git-revision-date
-  - privacy
+  # - privacy:
+  #    log_level: error
 
 extra:
   consent:
