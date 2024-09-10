@@ -25,7 +25,7 @@ nav:
   - Blog: blog.md
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: docs/overrides
   features:
     - navigation.instant
     - navigation.instant.progress
