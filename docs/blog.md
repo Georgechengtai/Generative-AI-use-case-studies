@@ -75,28 +75,30 @@ Qwen2-VL-72B is designed to understand and generate content that integrates both
 
 ---
 
-
 ## Advanced Prompt Engineering: Taking Your AI Skills to the Next Level
 
 For teachers who have already explored the basics of AI interaction through our [introductory materials](content-creation.md) and [Iorad portal](https://www.iorad.com/help-center/162026?roleId=11284), [Anthropic's comprehensive guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) offers a deep dive into advanced prompt engineering techniques.
 
-### Why Advanced Prompt Engineering Matters
+!!! info "Why Advanced Prompt Engineering Matters"
+    As you've become more comfortable with AI tools in your teaching, you may have encountered situations where you want to push the boundaries of what's possible. Advanced prompt engineering can help you:
 
-As you've become more comfortable with AI tools in your teaching, you may have encountered situations where you want to push the boundaries of what's possible. Advanced prompt engineering can help you:
+    - Fine-tune AI responses for complex educational scenarios
+    - Create more sophisticated lesson plans and materials
+    - Develop custom AI-assisted teaching tools
+    - Guide students in advanced AI interactions for research projects
 
-- Fine-tune AI responses for complex educational scenarios
-- Create more sophisticated lesson plans and materials
-- Develop custom AI-assisted teaching tools
-- Guide students in advanced AI interactions for research projects
+!!! example "What Anthropic's Advanced Guide Offers"
 
-### What Anthropic's Advanced Guide Offers
+    Building on the foundation you've already established, this guide covers:
 
-Building on the foundation you've already established, this guide covers:
+    ???+ note "Advanced techniques for nuanced AI interactions"
+        Learn how to craft prompts that elicit more precise and context-aware responses from AI models, tailored to specific educational needs.
 
-- Advanced techniques for nuanced AI interactions
-- Strategies for handling complex, multi-step tasks
-- Methods to improve AI comprehension of context-heavy content
-- Comparisons between prompting and other AI customization methods
+    ???+ note "Strategies for handling complex, multi-step tasks"
+        Discover methods to break down elaborate educational processes into manageable AI-assisted steps, enhancing the depth and breadth of your teaching capabilities.
 
+    ???+ note "Methods to improve AI comprehension of context-heavy content"
+        Explore techniques to provide AI with rich, nuanced context, enabling more accurate and relevant responses in subject-specific scenarios.
 
----
+    ???+ note "Comparisons between prompting and other AI customization methods"
+        Understand the strengths and limitations of prompt engineering compared to other AI customisation approaches, helping you choose the best method for your teaching goals.

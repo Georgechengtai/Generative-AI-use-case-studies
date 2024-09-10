@@ -43,8 +43,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=False:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"False";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CFire+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Fire Code"}</style>
       
     
     
@@ -95,7 +95,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#ai-assisted-grading-and-feedback" class="md-skip">
           Skip to content
         </a>
       
@@ -872,6 +872,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -899,6 +901,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -962,10 +966,25 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#adaptive-quiz-questions" class="md-nav__link">
     <span class="md-ellipsis">
       Adaptive Quiz Questions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adaptive Quiz Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#leveraging-pre-trained-knowledge-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      Leveraging Pre-trained Knowledge Base
     </span>
   </a>
   
@@ -995,11 +1014,35 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#appendixreference" class="md-nav__link">
+  <a href="#appendix" class="md-nav__link">
     <span class="md-ellipsis">
-      Appendix/Reference
+      Appendix
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      Further Reading
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-gpt-prompt-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom GPT Prompt Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1044,7 +1087,7 @@
         
   
   <span class="md-ellipsis">
-    AI mentors
+    AI Mentors
   </span>
   
 
@@ -1098,6 +1141,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1160,10 +1205,25 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#adaptive-quiz-questions" class="md-nav__link">
     <span class="md-ellipsis">
       Adaptive Quiz Questions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adaptive Quiz Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#leveraging-pre-trained-knowledge-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      Leveraging Pre-trained Knowledge Base
     </span>
   </a>
   
@@ -1193,11 +1253,35 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#appendixreference" class="md-nav__link">
+  <a href="#appendix" class="md-nav__link">
     <span class="md-ellipsis">
-      Appendix/Reference
+      Appendix
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      Further Reading
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-gpt-prompt-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom GPT Prompt Example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1216,87 +1300,155 @@
                   
 
 
-  <h1>Grading and Feedback</h1>
-
-<p><em>Note: You see this supplementary material has longer intro - Yes, I am afraid if teachers really JUST dump everything to grade and get feedback. That's awful, and I hope at least I wrote a paragraph to say no to this.</em></p>
-<h3 id="introduction">Introduction</h3>
+<h1 id="ai-assisted-grading-and-feedback">AI-Assisted Grading and Feedback</h1>
+<p><a class="glightbox" href="../images/grading_feedback.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Grading and Feedback" src="../images/grading_feedback.jpg" /></a></p>
+<h2 id="introduction">Introduction</h2>
 <p>Grading and feedback are crucial components of the educational process, providing students with valuable insights into their performance and areas for improvement. With the advent of generative AI technologies, there is growing interest in leveraging these advanced systems to enhance and potentially revolutionise the assessment landscape.</p>
 <p>Generative AI, exemplified by large language models like GPT-4, offers the potential to provide rapid, detailed, and personalised feedback on student work across various disciplines. This emerging technology presents both exciting opportunities and significant challenges for teachers and institutions.</p>
-<p>On one hand, AI-assisted grading could alleviate the time-consuming burden of assessment, allowing teachers to focus more on instruction and individualised support. It also promises consistency in grading and the ability to provide instant feedback at scale. However, concerns persist regarding potential biases, the inability to fully grasp nuanced contexts, and the risk of depersonalising the educational experience. As we explore the intersection of generative AI and assessment, it is crucial to critically examine its capabilities, limitations, and implications for the future of education.</p>
-<h3 id="scope">Scope</h3>
+<p>On one hand, AI-assisted grading could alleviate the time-consuming burden of assessment, allowing teachers to focus more on instruction and individualised support. It also promises consistency in grading and the ability to provide instant feedback at scale. However, concerns persist regarding potential biases, the inability to fully grasp nuanced contexts, and the risk of depersonalising the educational experience.</p>
+<p>As we explore the intersection of generative AI and assessment, it is crucial to critically examine its capabilities, limitations, and implications for the future of education.</p>
+<h2 id="scope">Scope</h2>
 <ol>
-<li><strong>Basic feedback and scoring</strong>: AI can identify errors, check formatting, and provide simple rubric-based grading for immediate feedback.</li>
-<li><strong>Contextual analysis and personalised feedback</strong>: AI analyses content and context using NLP to provide nuanced, personalised feedback based on factors like relevance, coherence, evidence, and critical thinking.</li>
-<li><strong>Adaptive assessment and intelligent tutoring</strong>: AI creates adaptive assessments that adjust difficulty based on performance and provides interactive, personalised tutoring. <em>Starting at this level, Non-technical teachers may find implementation challenging and need to work with AI technician in controlling outputs.</em></li>
-<li><strong>Batch processing and scalability</strong>: AI efficiently processes large volumes of student work with consistent grading criteria, ensuring fairness and timely feedback.</li>
-<li><strong>Continuous improvement and human oversight</strong>: Regular audits and human validation ensure accuracy, fairness, and alignment with learning goals.</li>
-<li><strong>Integration with learning management systems</strong>: Embedding AI within LMS allows easy access to grading tools, progress tracking, and data analysis for informed decision-making.</li>
-</ol>
-<h3 id="existing-products-and-applications">Existing Products and Applications</h3>
-<ol>
-<li><strong>GPT and other Large Language Models (LLMs)</strong>: LLMs like GPT can generate sample responses to assignments, offer personalised feedback on student writing, and create grading rubrics based on specific criteria. They can also help students refine their work by providing suggestions for improvement and corrections in grammar, style, and content. With API access, LLMs enable batch grading and automated feedback too.</li>
-<li><strong>Grammarly and AI-Assisted Writing Tools</strong>: Grammarly's AI-powered features, such as GrammarlyGO, can generate situationally relevant text to auto-complete or kick-start feedback. While the AI handles the more mechanical aspects of writing feedback, teachers can focus on higher level aspects of grading</li>
-<li><strong>Turnitin and Plagiarism Detection</strong>: Turnitin has integrated AI tools to detect writing generated by AI models, helping educators identify instances of potential plagiarism. However, no plagiarism detection system is perfect, and there are limitations in restricting all existing LLM output.</li>
-</ol>
-<h3 id="ai-prompts-for-grading-and-feedback">AI Prompts for Grading and Feedback</h3>
-<h5 id="basic-feedback-and-scoring">Basic Feedback and Scoring</h5>
-<ol>
-<li><strong>Grammar and Spelling Check</strong><ul>
-<li><strong>Prompt</strong>: "Identify and correct any grammatical errors or spelling mistakes in the following student essay: [Insert essay text]"</li>
-<li><strong>Expected Output</strong>: The essay text with corrections highlighted and explanations for each correction. <em>Note: For more advanced feedback, provide specific grammar rules or style guidelines to focus on.</em></li>
-</ul>
+<li>
+<p><strong>Basic feedback and scoring</strong>: AI can identify errors, check formatting, and provide simple rubric-based grading for immediate feedback.</p>
 </li>
-<li><strong>Rubric-Based Grading</strong><ul>
-<li><strong>Prompt</strong>: "Grade the attached student assignment using the provided rubric: [Insert assignment and rubric details]. Provide a score for each rubric category and an overall grade."</li>
-<li><strong>Expected Output</strong>: A breakdown of scores for each rubric category, along with justifications and an overall grade. <em>Note: Include specific examples from the assignment to support the scores given.</em></li>
-</ul>
+<li>
+<p><strong>Contextual analysis and personalised feedback</strong>: AI analyses content and context using NLP to provide nuanced, personalised feedback based on factors like relevance, coherence, evidence, and critical thinking.</p>
+</li>
+<li>
+<p><strong>Adaptive assessment and intelligent tutoring</strong>: AI creates adaptive assessments that adjust difficulty based on performance and provides interactive, personalised tutoring.</p>
+<div class="admonition warning">
+<p class="admonition-title">Caution for Non-Technical Teachers</p>
+<p>Starting at level 3, Non-technical teachers may find implementation challenging and need to work with AI technician in controlling outputs.</p>
+</div>
+</li>
+<li>
+<p><strong>Batch processing and scalability</strong>: AI efficiently processes large volumes of student work with consistent grading criteria, ensuring fairness and timely feedback.</p>
+</li>
+<li>
+<p><strong>Continuous improvement and human oversight</strong>: Regular audits and human validation ensure accuracy, fairness, and alignment with learning goals.</p>
+</li>
+<li>
+<p><strong>Integration with learning management systems</strong>: Embedding AI within LMS allows easy access to grading tools, progress tracking, and data analysis for informed decision-making.</p>
 </li>
 </ol>
-<h5 id="contextual-analysis-and-personalised-feedback">Contextual Analysis and Personalised Feedback</h5>
+<h2 id="existing-products-and-applications">Existing Products and Applications</h2>
 <ol>
-<li><strong>Content Relevance and Coherence</strong><ul>
-<li><strong>Prompt</strong>: "Analyse the content of this student's research paper [insert paper text] in terms of its relevance to the assigned topic and the coherence of its arguments. Provide suggestions for improvement."</li>
-<li><strong>Expected Output</strong>: A detailed analysis of the paper's content, highlighting strengths and weaknesses in relevance and coherence. Suggestions for improving the focus and flow of the arguments. <em>Note: Include specific examples from the paper to illustrate the feedback.</em></li>
-</ul>
+<li>
+<p><strong>GPT and other Large Language Models (LLMs)</strong>: LLMs like GPT can generate sample responses to assignments, offer personalised feedback on student writing, and create grading rubrics based on specific criteria. They can also help students refine their work by providing suggestions for improvement and corrections in grammar, style, and content. With API access, LLMs enable batch grading and automated feedback too.</p>
 </li>
-<li><strong>Evidence and Critical Thinking</strong><ul>
-<li><strong>Prompt</strong>: "Evaluate the use of evidence and the level of critical thinking demonstrated in this student's essay [insert essay text]. Identify areas where the student could strengthen their arguments or provide more support."</li>
-<li><strong>Expected Output</strong>: An assessment of the student's use of evidence and critical thinking skills, with specific examples from the essay. Recommendations for enhancing the arguments and incorporating more diverse perspectives. <em>Note: Provide additional resources or examples to guide the student in improving their critical thinking.</em></li>
-</ul>
+<li>
+<p><strong>Grammarly and AI-Assisted Writing Tools</strong>: Grammarly's AI-powered features, such as GrammarlyGO, can generate situationally relevant text to auto-complete or kick-start feedback. While the AI handles the more mechanical aspects of writing feedback, teachers can focus on higher level aspects of grading.</p>
+</li>
+<li>
+<p><strong>Turnitin and Plagiarism Detection</strong>: Turnitin has integrated AI tools to detect writing generated by AI models, helping educators identify instances of potential plagiarism. However, no plagiarism detection system is perfect, and there are limitations in restricting all existing LLM output.</p>
 </li>
 </ol>
-<h5 id="adaptive-quiz-questions">Adaptive Quiz Questions</h5>
+<h2 id="ai-prompts-for-grading-and-feedback">AI Prompts for Grading and Feedback</h2>
+<h3 id="basic-feedback-and-scoring">Basic Feedback and Scoring</h3>
+<div class="admonition example">
+<p class="admonition-title">1. Grammar and Spelling Check</p>
+<p><strong>Prompt:</strong> "Identify and correct any grammatical errors or spelling mistakes in the following student essay: [Insert essay text]"</p>
+<p><strong>Expected Output:</strong> The essay text with corrections highlighted and explanations for each correction.</p>
+<details class="tip">
+<summary>Tip</summary>
+<p>For more advanced feedback, provide specific grammar rules or style guidelines to focus on.</p>
+</details>
+</div>
+<div class="admonition example">
+<p class="admonition-title">2. Rubric-Based Grading</p>
+<p><strong>Prompt:</strong> "Grade the attached student assignment using the provided rubric: [Insert assignment and rubric details]. Provide a score for each rubric category and an overall grade."</p>
+<p><strong>Expected Output:</strong> A breakdown of scores for each rubric category, along with justifications and an overall grade.</p>
+<details class="tip">
+<summary>Tip</summary>
+<p>Include specific examples from the assignment to support the scores given.</p>
+</details>
+</div>
+<h3 id="contextual-analysis-and-personalised-feedback">Contextual Analysis and Personalised Feedback</h3>
+<div class="admonition example">
+<p class="admonition-title">1. Content Relevance and Coherence</p>
+<p><strong>Prompt:</strong> "Analyse the content of this student's research paper [insert paper text] in terms of its relevance to the assigned topic and the coherence of its arguments. Provide suggestions for improvement."</p>
+<p><strong>Expected Output:</strong> A detailed analysis of the paper's content, highlighting strengths and weaknesses in relevance and coherence. Suggestions for improving the focus and flow of the arguments.</p>
+<details class="tip">
+<summary>Tip</summary>
+<p>Include specific examples from the paper to illustrate the feedback.</p>
+</details>
+</div>
+<div class="admonition example">
+<p class="admonition-title">2. Evidence and Critical Thinking</p>
+<p><strong>Prompt:</strong> "Evaluate the use of evidence and the level of critical thinking demonstrated in this student's essay [insert essay text]. Identify areas where the student could strengthen their arguments or provide more support."</p>
+<p><strong>Expected Output:</strong> An assessment of the student's use of evidence and critical thinking skills, with specific examples from the essay. Recommendations for enhancing the arguments and incorporating more diverse perspectives.</p>
+<details class="tip">
+<summary>Tip</summary>
+<p>Provide additional resources or examples to guide the student in improving their critical thinking.</p>
+</details>
+</div>
+<h2 id="adaptive-quiz-questions">Adaptive Quiz Questions</h2>
+<h3 id="leveraging-pre-trained-knowledge-base">Leveraging Pre-trained Knowledge Base</h3>
+<div class="admonition info">
+<p class="admonition-title">Approach</p>
+<p>Instead of relying solely on prompts, adaptive quizzes can be created by leveraging a pre-loaded and pre-trained knowledge base. This knowledge base would consist of a set of questions, answers, and associated difficulty levels, which have been vectorised and organised using techniques like Retrieval-Augmented Generation (RAG).</p>
+<details class="note">
+<summary>Custom GPT Models</summary>
+<p>Custom GPT models enable this operation in a graphical interface, but the functionality may be limited compared to more advanced implementations.</p>
+</details>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Implementation</p>
+<p>By having a structured and pre-trained knowledge base, the AI system can intelligently select questions based on the student's performance.</p>
 <ol>
-<li><strong>Leveraging Pre-trained Knowledge Base</strong><ul>
-<li><strong>Approach</strong>: Instead of relying solely on prompts, adaptive quizzes can be created by leveraging a pre-loaded and pre-trained knowledge base. This knowledge base would consist of a set of questions, answers, and associated difficulty levels, which have been vectorised and organised using techniques like Retrieval-Augmented Generation (RAG). Custom GPT models enable this operation in a graphical interface, but the functionality may be limited compared to more advanced implementations.</li>
-<li><strong>Implementation</strong>: By having a structured and pre-trained knowledge base, the AI system can intelligently select questions based on the student's performance. As the student answers correctly, the system retrieves more challenging questions from the knowledge base, gradually increasing the difficulty level. If the student struggles, the system adapts by presenting questions of lower difficulty, helping them build understanding. The fine-tuned model can generate personalised feedback for each response, guiding the student towards mastery of the topic.</li>
-<li><strong>Note</strong>: This approach ensures that the adaptive quiz is developed and elaborated on a curated and validated set of questions, however, developing such a pre-trained knowledge base may require significant effort in curating questions, answers, and difficulty levels, as well as training the model on this dataset, to properly enhance the interaction and restrict unfavourable outputs.</li>
-</ul>
-</li>
+<li>As the student answers correctly, the system retrieves more challenging questions from the knowledge base, gradually increasing the difficulty level.</li>
+<li>If the student struggles, the system adapts by presenting questions of lower difficulty, helping them build understanding.</li>
+<li>The fine-tuned model can generate personalised feedback for each response, guiding the student towards mastery of the topic.</li>
 </ol>
-<h5 id="intelligent-tutoring">Intelligent Tutoring</h5>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Important Note</p>
+<p>This approach ensures that the adaptive quiz is developed and elaborated on a curated and validated set of questions. However, developing such a pre-trained knowledge base may require significant effort:</p>
 <ul>
-<li>Please refer to our separate document, "AI Mentor powered by Generative AI," for detailed information on how to create an AI mentor that provides personalised guidance and support to your students.</li>
+<li>Curating questions, answers, and difficulty levels</li>
+<li>Training the model on this dataset</li>
+<li>Enhancing the interaction and restricting unfavourable outputs</li>
 </ul>
-<h5 id="batch-processing-and-scalability">Batch Processing and Scalability</h5>
+<details class="tip">
+<summary>Best Practices</summary>
+<ul>
+<li>Regularly update the knowledge base with new questions and information</li>
+<li>Conduct periodic reviews to ensure the accuracy and relevance of the content</li>
+<li>Monitor student performance data to refine the adaptive algorithm</li>
+</ul>
+</details>
+</div>
+<h3 id="intelligent-tutoring">Intelligent Tutoring</h3>
+<div class="admonition info">
+<p class="admonition-title">AI Mentor Guide</p>
+<p>For a basic and preliminary overview on creating an AI mentor that offers personalised support to your students, please visit our <a href="../mentor/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4m4 10.54c0 1.06-.28 3.53-2.19 6.29L13 15l.94-1.88c-.62-.07-1.27-.12-1.94-.12s-1.32.05-1.94.12L11 15l-.81 4.83C8.28 17.07 8 14.6 8 13.54c-2.39.7-4 1.96-4 3.46v4h16v-4c0-1.5-1.6-2.76-4-3.46"/></svg></span> AI Mentor</a> page.</p>
+</div>
+<h3 id="batch-processing-and-scalability">Batch Processing and Scalability</h3>
+<div class="admonition info">
+<p class="admonition-title">Automated Batch Grading with Jupyter Notebook or Google Colab</p>
+<p><strong>Approach</strong>: Utilise Jupyter Notebook or Google Colab to automate batch grading of a large number of assignments. These tools provide an interactive interface for processing assignments one at a time, applying pre-assigned rubrics and instructions.</p>
+<p><strong>Implementation</strong>: </p>
 <ol>
-<li><strong>Automated Batch Grading with Jupyter Notebook or Google Colab</strong><ul>
-<li><strong>Approach</strong>: To automate the batch grading process and handle a large number of assignments, teachers can utilise a Jupyter Notebook environment or Google Colab. These tools provide an interactive and user-friendly interface for educators to process assignments one at a time, applying pre-assigned rubrics and instructions. This approach allows for scalability and ensures that each assignment receives individualised evaluation based on the provided criteria.</li>
-<li><strong>Implementation</strong>: Implementing automated batch grading using Jupyter Notebook or Google Colab may require some technical expertise. Here's a simplified overview of the process:<ol>
-<li>Prepare a rubric or set of instructions that define the grading criteria and expectations for the assignments.</li>
-<li>Organise the assignments in a structured format, such as individual files or a spreadsheet, with each assignment clearly identified.</li>
-<li>Open Jupyter Notebook or Google Colab in a web browser and create a new notebook.</li>
-<li>Write code snippets or use pre-built functions to load and process each assignment individually, applying the pre-assigned rubric and instructions.</li>
-<li>Run the notebook, which will iterate through the assignments, feeding them one at a time to the AI grading system.</li>
-<li>The grading results, feedback, and any other relevant information will be generated and can be stored in a structured format, such as a spreadsheet.</li>
-<li>Review the grading results and make any necessary adjustments or manual reviews.</li>
+<li>Prepare a rubric or set of instructions for grading criteria.</li>
+<li>Organise assignments in a structured format (e.g., individual files or spreadsheet).</li>
+<li>Create a new notebook in Jupyter Notebook or Google Colab.</li>
+<li>Write code to load and process each assignment, applying the rubric.</li>
+<li>Run the notebook to iterate through assignments.</li>
+<li>Store grading results and feedback in a structured format.</li>
+<li>Review results and make necessary adjustments.</li>
 </ol>
-</li>
-<li><strong>Note</strong>: While automated batch grading using Jupyter Notebook or Google Colab can streamline the grading process, it's important to acknowledge that a certain level of technical knowledge is required to set up and utilise these tools effectively. It's recommended to collaborate with technical experts or seek guidance from colleagues who have experience with these tools to ensure a smooth implementation and to address any challenges that may arise.</li>
-</ul>
-</li>
-</ol>
-<h3 id="appendixreference">Appendix/Reference</h3>
+<details class="tip">
+<summary>Technical Considerations</summary>
+<p>Implementing this approach requires some technical expertise. Consider collaborating with technical experts or seeking guidance from experienced colleagues to ensure smooth implementation and address potential challenges.</p>
+</details>
+<details class="warning">
+<summary>Important Note</summary>
+<p>While this method can streamline grading, it's crucial to maintain a balance between automation and human oversight to ensure fair and accurate assessment.</p>
+</details>
+</div>
+<h2 id="appendix">Appendix</h2>
+<h3 id="further-reading">Further Reading</h3>
 <ul>
 <li><a href="https://hongkongtesol.com/blog/how-use-ai-generate-student-feedback">How to use AI to Generate Student Feedback | Hong Kong TESOL</a></li>
 <li><a href="https://automatedteach.com/p/grade-faster-chatgpt-custom-gpt">How I Grade 2-3x Faster with ChatGPT</a></li>
@@ -1306,79 +1458,114 @@
 </ul>
 </li>
 </ul>
-<p>![[Pasted image 20240826152031.png]]</p>
-<p>Below is a full prompt on a custom GPT, Reading Response Feedback Generator. This may help you to structure the instructions in details:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>#INSTRUCTIONS:
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>You follow the below step-by-step process to convert numbered notes from the user (the professor Dr. Clay) on the strengths and weaknesses of a specific student&#39;s submission on Reading Response #2 into concise, organized, clear, and useful feedback paragraphs. You are a pedagogy expert whose strength is in improving student learning through psychologically effective feedback. You always respect the judgment of the user.
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>#YOUR STEP-BY-STEP PROCESS:
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>##STEP 1:
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>Analyze the user&#39;s prompt to gauge sentiment: very positive, positive, neutral, negative, very negative. Use the gauged sentiment to inform your tone for subsequent steps. Then, proceed to Step 2.
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>###EXAMPLE 1:
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>User: &quot;(1) ONE EXCEPTIONAL STRENGTH HERE. (2) ANOTHER HERE.&quot;
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>Sentiment: very positive
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>###EXAMPLE 2:
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>User: &quot;(1) ONE NEGATIVE WEAKNESS HERE. (2) ANOTHER HERE.&quot;
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>Sentiment: negative
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>##STEP 2:
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
-<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>Take the numbered notes from the user on the strengths of the student&#39;s Reading Response #2 and convert them into short unnumbered paragraphs. If the notes are specific, leave the specifics completely unchanged but contextualize them in complete sentences that fit with the assignment prompt and that match the sentiment from Step 1. If the notes are generic, formulate them using complete sentences, retaining the broad meaning. Then, proceed to Step 3.
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>
-<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>###EXAMPLE:
-<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>
-<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>User: &quot;Strengths: (1) ==ONE GENERIC STRENGTH HERE.== (2) ==ONE SPECIFIC STRENGTH HERE.==&quot;
-<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>
-<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>You: &quot;==YOUR WELL-WRITTEN EXPRESSION OF THE GENERIC STRENGTH HERE.== TRANSITION IF NEEDED. ==YOUR WELL-WRITTEN EXPRESSION OF THE SPECIFIC STRENGTH, WITH SPECIFICS RETAINED (INCLUDING QUOTES WORD-FOR-WORD), HERE.==&quot;
-<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>
-<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>##STEP 3:
-<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
-<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>Take the numbered notes from the user on the weaknesses of the student&#39;s Reading Response #2 and convert them into short unnumbered paragraphs. If the notes are specific, leave the specifics completely unchanged but contextualize them in complete sentences that fit with the assignment prompt and that match the sentiment from Step 1. If the notes are generic, formulate them using complete sentences, retaining the broad meaning. Then, proceed to Step 4.
-<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>
-<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>###EXAMPLE:
-<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>
-<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>User: &quot;Weaknesses: (1) ==ONE GENERIC WEAKNESS HERE.== (2) ==ONE SPECIFIC WEAKNESS HERE.==&quot;
-<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>
-<a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>You: &quot;==YOUR WELL-WRITTEN EXPRESSION OF THE GENERIC WEAKNESS HERE====.== TRANSITION IF NEEDED. ==YOUR WELL-WRITTEN EXPRESSION OF THE SPECIFIC WEAKNESS, WITH SPECIFICS RETAINED (INCLUDING QUOTES WORD-FOR-WORD), HERE.==&quot;
-<a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>
-<a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>##STEP 4:
-<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a>
-<a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>Use the gauged sentiment from Step 1, the unnumbered strength paragraphs from Step 2, and the unnumbered weakness paragraphs from Step 3 to craft cohesive feedback to the student. Place an introductory remark mentioning the assignment and briefly expressing the gauged sentiment before the strength paragraphs, then place the weakness paragraphs, and finally place a sign-off from the user (Dr. Clay), a citation to ChatGPT, and a suggestion to come to office hours if they have any questions. Do not number the parts. Be very direct, concise, and brief. Send a message to the user with all parts in succession.
-<a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>
-<a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>###EXAMPLE:
-<a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a>
-<a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a>You: &quot;Good work on Reading Response #2!
-<a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a>
-<a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a>==YOUR WELL-WRITTEN EXPRESSION OF THE GENERIC STRENGTH HERE.== TRANSITION IF NEEDED. ==YOUR WELL-WRITTEN EXPRESSION OF THE SPECIFIC STRENGTH, WITH SPECIFICS RETAINED (INCLUDING QUOTES WORD-FOR-WORD), HERE.==&quot;
-<a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a>
-<a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a>TRANSITION IF NEEDED.
-<a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a>
-<a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a>==YOUR WELL-WRITTEN EXPRESSION OF THE GENERIC WEAKNESS HERE====.== TRANSITION IF NEEDED. ==YOUR WELL-WRITTEN EXPRESSION OF THE SPECIFIC WEAKNESS, WITH SPECIFICS RETAINED (INCLUDING QUOTES WORD-FOR-WORD), HERE.==&quot;
-<a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a>
-<a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a>Please come by office hours if you would like to discuss further.
-<a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a>
-<a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a>Dr. Clay
-<a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a>
-<a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a>Note: This feedback was drafted by ChatGPT based on my notes.&quot;
-<a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a>
-<a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a>#ASSIGNMENT PROMPT GIVEN TO STUDENTS FOR READING RESPONSE #2:
-<a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a>
-<a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a>DESCRIPTION HERE
-<a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a>
-<a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a>#EXPLANATION OF KNOWLEDGE BASE FILES:
-<a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a>
-<a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a>You have two files in your knowledge base: (i) X; and (ii) Y. Rely on knowledge before searching the internet.
-</code></pre></div>
-<p>Remember to experiment with your custom GPT and make adjustments as needed before sharing with your colleagues and students.</p>
+<h3 id="custom-gpt-prompt-example">Custom GPT Prompt Example</h3>
+<p>Below is a full prompt for a custom GPT, the Reading Response Feedback Generator. This example demonstrates how to structure detailed instructions effectively.</p>
+<div class="admonition example">
+<p class="admonition-title">Reading Response Feedback Generator Prompt</p>
+<p>This GPT is designed to convert a professor's notes into organised, clear, and psychologically effective feedback for students' Reading Response #2 assignments.</p>
+<details class="info">
+<summary>Key Features</summary>
+<ul>
+<li>Sentiment analysis</li>
+<li>Conversion of numbered notes to paragraphs</li>
+<li>Structured feedback generation</li>
+<li>Pedagogically sound approach</li>
+</ul>
+</details>
+<div class="admonition info">
+<p class="admonition-title">Always Remember</p>
+<p>Experiment with your custom GPT and make adjustments as needed before sharing with your colleagues and students.</p>
+</div>
+</div>
+<div class="highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># INSTRUCTIONS:</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="l l-Scalar l-Scalar-Plain">You follow the below step-by-step process to convert numbered notes from the user</span><span class="w"> </span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="l l-Scalar l-Scalar-Plain">(the professor Dr. Clay) on the strengths and weaknesses of a specific student&#39;s</span><span class="w"> </span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="l l-Scalar l-Scalar-Plain">submission on Reading Response</span><span class="w"> </span><span class="c1">#2 into concise, organized, clear, and useful </span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="l l-Scalar l-Scalar-Plain">feedback paragraphs. You are a pedagogy expert whose strength is in improving</span><span class="w"> </span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="l l-Scalar l-Scalar-Plain">student learning through psychologically effective feedback. You always respect</span><span class="w"> </span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="l l-Scalar l-Scalar-Plain">the judgment of the user.</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="l l-Scalar l-Scalar-Plain"># YOUR STEP-BY-STEP PROCESS</span><span class="p p-Indicator">:</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="c1">## STEP 1:</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="l l-Scalar l-Scalar-Plain">Analyze the user&#39;s prompt to gauge sentiment</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">very positive, positive, neutral,</span><span class="w"> </span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="l l-Scalar l-Scalar-Plain">negative, very negative. Use the gauged sentiment to inform your tone for</span><span class="w"> </span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="l l-Scalar l-Scalar-Plain">subsequent steps. Then, proceed to Step 2.</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="c1">### EXAMPLE 1:</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="nt">User</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;(1)</span><span class="nv"> </span><span class="s">ONE</span><span class="nv"> </span><span class="s">EXCEPTIONAL</span><span class="nv"> </span><span class="s">STRENGTH</span><span class="nv"> </span><span class="s">HERE.</span><span class="nv"> </span><span class="s">(2)</span><span class="nv"> </span><span class="s">ANOTHER</span><span class="nv"> </span><span class="s">HERE.&quot;</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="nt">Sentiment</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">very positive</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="c1">### EXAMPLE 2:</span>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="nt">User</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;(1)</span><span class="nv"> </span><span class="s">ONE</span><span class="nv"> </span><span class="s">NEGATIVE</span><span class="nv"> </span><span class="s">WEAKNESS</span><span class="nv"> </span><span class="s">HERE.</span><span class="nv"> </span><span class="s">(2)</span><span class="nv"> </span><span class="s">ANOTHER</span><span class="nv"> </span><span class="s">HERE.&quot;</span>
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="nt">Sentiment</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">negative</span>
+</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>
+</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="c1">## STEP 2:</span>
+</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="l l-Scalar l-Scalar-Plain">Take the numbered notes from the user on the strengths of the student&#39;s Reading</span><span class="w"> </span>
+</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="l l-Scalar l-Scalar-Plain">Response</span><span class="w"> </span><span class="c1">#2 and convert them into short unnumbered paragraphs. If the notes are </span>
+</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="l l-Scalar l-Scalar-Plain">specific, leave the specifics completely unchanged but contextualize them in</span><span class="w"> </span>
+</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="l l-Scalar l-Scalar-Plain">complete sentences that fit with the assignment prompt and that match the</span><span class="w"> </span>
+</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="l l-Scalar l-Scalar-Plain">sentiment from Step 1. If the notes are generic, formulate them using complete</span><span class="w"> </span>
+</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="l l-Scalar l-Scalar-Plain">sentences, retaining the broad meaning. Then, proceed to Step 3.</span>
+</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>
+</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="c1">### EXAMPLE:</span>
+</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="nt">User</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Strengths:</span><span class="nv"> </span><span class="s">(1)</span><span class="nv"> </span><span class="s">==ONE</span><span class="nv"> </span><span class="s">GENERIC</span><span class="nv"> </span><span class="s">STRENGTH</span><span class="nv"> </span><span class="s">HERE.==</span><span class="nv"> </span><span class="s">(2)</span><span class="nv"> </span><span class="s">==ONE</span><span class="nv"> </span><span class="s">SPECIFIC</span><span class="nv"> </span><span class="s">STRENGTH</span><span class="nv"> </span><span class="s">HERE.==&quot;</span>
+</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
+</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="nt">You</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;==YOUR</span><span class="nv"> </span><span class="s">WELL-WRITTEN</span><span class="nv"> </span><span class="s">EXPRESSION</span><span class="nv"> </span><span class="s">OF</span><span class="nv"> </span><span class="s">THE</span><span class="nv"> </span><span class="s">GENERIC</span><span class="nv"> </span><span class="s">STRENGTH</span><span class="nv"> </span><span class="s">HERE.==</span><span class="nv"> </span><span class="s">TRANSITION</span><span class="w"> </span>
+</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="s">IF</span><span class="nv"> </span><span class="s">NEEDED.</span><span class="nv"> </span><span class="s">==YOUR</span><span class="nv"> </span><span class="s">WELL-WRITTEN</span><span class="nv"> </span><span class="s">EXPRESSION</span><span class="nv"> </span><span class="s">OF</span><span class="nv"> </span><span class="s">THE</span><span class="nv"> </span><span class="s">SPECIFIC</span><span class="nv"> </span><span class="s">STRENGTH,</span><span class="nv"> </span><span class="s">WITH</span><span class="w"> </span>
+</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="s">SPECIFICS</span><span class="nv"> </span><span class="s">RETAINED</span><span class="nv"> </span><span class="s">(INCLUDING</span><span class="nv"> </span><span class="s">QUOTES</span><span class="nv"> </span><span class="s">WORD-FOR-WORD),</span><span class="nv"> </span><span class="s">HERE.==&quot;</span>
+</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>
+</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="c1">## STEP 3:</span>
+</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="l l-Scalar l-Scalar-Plain">Take the numbered notes from the user on the weaknesses of the student&#39;s Reading</span><span class="w"> </span>
+</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="l l-Scalar l-Scalar-Plain">Response</span><span class="w"> </span><span class="c1">#2 and convert them into short unnumbered paragraphs. If the notes are </span>
+</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="l l-Scalar l-Scalar-Plain">specific, leave the specifics completely unchanged but contextualize them in</span><span class="w"> </span>
+</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="l l-Scalar l-Scalar-Plain">complete sentences that fit with the assignment prompt and that match the</span><span class="w"> </span>
+</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="l l-Scalar l-Scalar-Plain">sentiment from Step 1. If the notes are generic, formulate them using complete</span><span class="w"> </span>
+</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="l l-Scalar l-Scalar-Plain">sentences, retaining the broad meaning. Then, proceed to Step 4.</span>
+</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>
+</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="c1">### EXAMPLE:</span>
+</span><span id="__span-0-48"><a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a><span class="nt">User</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Weaknesses:</span><span class="nv"> </span><span class="s">(1)</span><span class="nv"> </span><span class="s">==ONE</span><span class="nv"> </span><span class="s">GENERIC</span><span class="nv"> </span><span class="s">WEAKNESS</span><span class="nv"> </span><span class="s">HERE.==</span><span class="nv"> </span><span class="s">(2)</span><span class="nv"> </span><span class="s">==ONE</span><span class="nv"> </span><span class="s">SPECIFIC</span><span class="nv"> </span><span class="s">WEAKNESS</span><span class="nv"> </span><span class="s">HERE.==&quot;</span>
+</span><span id="__span-0-49"><a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a>
+</span><span id="__span-0-50"><a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a><span class="nt">You</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;==YOUR</span><span class="nv"> </span><span class="s">WELL-WRITTEN</span><span class="nv"> </span><span class="s">EXPRESSION</span><span class="nv"> </span><span class="s">OF</span><span class="nv"> </span><span class="s">THE</span><span class="nv"> </span><span class="s">GENERIC</span><span class="nv"> </span><span class="s">WEAKNESS</span><span class="nv"> </span><span class="s">HERE====.==</span><span class="w"> </span>
+</span><span id="__span-0-51"><a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a><span class="s">TRANSITION</span><span class="nv"> </span><span class="s">IF</span><span class="nv"> </span><span class="s">NEEDED.</span><span class="nv"> </span><span class="s">==YOUR</span><span class="nv"> </span><span class="s">WELL-WRITTEN</span><span class="nv"> </span><span class="s">EXPRESSION</span><span class="nv"> </span><span class="s">OF</span><span class="nv"> </span><span class="s">THE</span><span class="nv"> </span><span class="s">SPECIFIC</span><span class="nv"> </span><span class="s">WEAKNESS,</span><span class="w"> </span>
+</span><span id="__span-0-52"><a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a><span class="s">WITH</span><span class="nv"> </span><span class="s">SPECIFICS</span><span class="nv"> </span><span class="s">RETAINED</span><span class="nv"> </span><span class="s">(INCLUDING</span><span class="nv"> </span><span class="s">QUOTES</span><span class="nv"> </span><span class="s">WORD-FOR-WORD),</span><span class="nv"> </span><span class="s">HERE.==&quot;</span>
+</span><span id="__span-0-53"><a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a>
+</span><span id="__span-0-54"><a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a><span class="c1">## STEP 4:</span>
+</span><span id="__span-0-55"><a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a><span class="l l-Scalar l-Scalar-Plain">Use the gauged sentiment from Step 1, the unnumbered strength paragraphs from</span><span class="w"> </span>
+</span><span id="__span-0-56"><a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a><span class="l l-Scalar l-Scalar-Plain">Step 2, and the unnumbered weakness paragraphs from Step 3 to craft cohesive</span><span class="w"> </span>
+</span><span id="__span-0-57"><a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a><span class="l l-Scalar l-Scalar-Plain">feedback to the student. Place an introductory remark mentioning the assignment</span><span class="w"> </span>
+</span><span id="__span-0-58"><a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a><span class="l l-Scalar l-Scalar-Plain">and briefly expressing the gauged sentiment before the strength paragraphs, then</span><span class="w"> </span>
+</span><span id="__span-0-59"><a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a><span class="l l-Scalar l-Scalar-Plain">place the weakness paragraphs, and finally place a sign-off from the user</span><span class="w"> </span>
+</span><span id="__span-0-60"><a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a><span class="l l-Scalar l-Scalar-Plain">(Dr. Clay), a citation to ChatGPT, and a suggestion to come to office hours if</span><span class="w"> </span>
+</span><span id="__span-0-61"><a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a><span class="l l-Scalar l-Scalar-Plain">they have any questions. Do not number the parts. Be very direct, concise, and</span><span class="w"> </span>
+</span><span id="__span-0-62"><a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a><span class="l l-Scalar l-Scalar-Plain">brief. Send a message to the user with all parts in succession.</span>
+</span><span id="__span-0-63"><a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a>
+</span><span id="__span-0-64"><a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a><span class="c1">### EXAMPLE:</span>
+</span><span id="__span-0-65"><a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a><span class="nt">You</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Good</span><span class="nv"> </span><span class="s">work</span><span class="nv"> </span><span class="s">on</span><span class="nv"> </span><span class="s">Reading</span><span class="nv"> </span><span class="s">Response</span><span class="nv"> </span><span class="s">#2!</span>
+</span><span id="__span-0-66"><a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a>
+</span><span id="__span-0-67"><a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a><span class="s">==YOUR</span><span class="nv"> </span><span class="s">WELL-WRITTEN</span><span class="nv"> </span><span class="s">EXPRESSION</span><span class="nv"> </span><span class="s">OF</span><span class="nv"> </span><span class="s">THE</span><span class="nv"> </span><span class="s">GENERIC</span><span class="nv"> </span><span class="s">STRENGTH</span><span class="nv"> </span><span class="s">HERE.==</span><span class="nv"> </span><span class="s">TRANSITION</span><span class="nv"> </span><span class="s">IF</span><span class="w"> </span>
+</span><span id="__span-0-68"><a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a><span class="s">NEEDED.</span><span class="nv"> </span><span class="s">==YOUR</span><span class="nv"> </span><span class="s">WELL-WRITTEN</span><span class="nv"> </span><span class="s">EXPRESSION</span><span class="nv"> </span><span class="s">OF</span><span class="nv"> </span><span class="s">THE</span><span class="nv"> </span><span class="s">SPECIFIC</span><span class="nv"> </span><span class="s">STRENGTH,</span><span class="nv"> </span><span class="s">WITH</span><span class="nv"> </span><span class="s">SPECIFICS</span><span class="w"> </span>
+</span><span id="__span-0-69"><a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a><span class="s">RETAINED</span><span class="nv"> </span><span class="s">(INCLUDING</span><span class="nv"> </span><span class="s">QUOTES</span><span class="nv"> </span><span class="s">WORD-FOR-WORD),</span><span class="nv"> </span><span class="s">HERE.==&quot;</span>
+</span><span id="__span-0-70"><a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a>
+</span><span id="__span-0-71"><a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a><span class="l l-Scalar l-Scalar-Plain">TRANSITION IF NEEDED.</span>
+</span><span id="__span-0-72"><a id="__codelineno-0-72" name="__codelineno-0-72" href="#__codelineno-0-72"></a>
+</span><span id="__span-0-73"><a id="__codelineno-0-73" name="__codelineno-0-73" href="#__codelineno-0-73"></a><span class="l l-Scalar l-Scalar-Plain">==YOUR WELL-WRITTEN EXPRESSION OF THE GENERIC WEAKNESS HERE====.== TRANSITION IF</span><span class="w"> </span>
+</span><span id="__span-0-74"><a id="__codelineno-0-74" name="__codelineno-0-74" href="#__codelineno-0-74"></a><span class="l l-Scalar l-Scalar-Plain">NEEDED. ==YOUR WELL-WRITTEN EXPRESSION OF THE SPECIFIC WEAKNESS, WITH SPECIFICS</span><span class="w"> </span>
+</span><span id="__span-0-75"><a id="__codelineno-0-75" name="__codelineno-0-75" href="#__codelineno-0-75"></a><span class="l l-Scalar l-Scalar-Plain">RETAINED (INCLUDING QUOTES WORD-FOR-WORD), HERE.==&quot;</span>
+</span><span id="__span-0-76"><a id="__codelineno-0-76" name="__codelineno-0-76" href="#__codelineno-0-76"></a>
+</span><span id="__span-0-77"><a id="__codelineno-0-77" name="__codelineno-0-77" href="#__codelineno-0-77"></a><span class="l l-Scalar l-Scalar-Plain">Please come by office hours if you would like to discuss further.</span>
+</span><span id="__span-0-78"><a id="__codelineno-0-78" name="__codelineno-0-78" href="#__codelineno-0-78"></a>
+</span><span id="__span-0-79"><a id="__codelineno-0-79" name="__codelineno-0-79" href="#__codelineno-0-79"></a><span class="l l-Scalar l-Scalar-Plain">Dr. Clay</span>
+</span><span id="__span-0-80"><a id="__codelineno-0-80" name="__codelineno-0-80" href="#__codelineno-0-80"></a>
+</span><span id="__span-0-81"><a id="__codelineno-0-81" name="__codelineno-0-81" href="#__codelineno-0-81"></a><span class="nt">Note</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">This feedback was drafted by ChatGPT based on my notes.&quot;</span>
+</span><span id="__span-0-82"><a id="__codelineno-0-82" name="__codelineno-0-82" href="#__codelineno-0-82"></a>
+</span><span id="__span-0-83"><a id="__codelineno-0-83" name="__codelineno-0-83" href="#__codelineno-0-83"></a><span class="c1"># ASSIGNMENT PROMPT GIVEN TO STUDENTS FOR READING RESPONSE #2:</span>
+</span><span id="__span-0-84"><a id="__codelineno-0-84" name="__codelineno-0-84" href="#__codelineno-0-84"></a><span class="l l-Scalar l-Scalar-Plain">DESCRIPTION HERE</span>
+</span><span id="__span-0-85"><a id="__codelineno-0-85" name="__codelineno-0-85" href="#__codelineno-0-85"></a>
+</span><span id="__span-0-86"><a id="__codelineno-0-86" name="__codelineno-0-86" href="#__codelineno-0-86"></a><span class="c1"># EXPLANATION OF KNOWLEDGE BASE FILES:</span>
+</span><span id="__span-0-87"><a id="__codelineno-0-87" name="__codelineno-0-87" href="#__codelineno-0-87"></a><span class="nt">You have two files in your knowledge base</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">(i) X; and (ii) Y. Rely on knowledge</span><span class="w"> </span>
+</span><span id="__span-0-88"><a id="__codelineno-0-88" name="__codelineno-0-88" href="#__codelineno-0-88"></a><span class="l l-Scalar l-Scalar-Plain">before searching the internet.</span>
+</span></code></pre></div>
 
 
 
@@ -1474,6 +1661,46 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../content-creation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content Creation">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256l137.3-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Content Creation
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../virtual-patient-simulation/" class="md-footer__link md-footer__link--next" aria-label="Next: Virtual Patient Simulation">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Virtual Patient Simulation
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
@@ -1483,9 +1710,16 @@
     </div>
   
   
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://www.iorad.com/help-center/162026?roleId=11284" target="_blank" rel="noopener" title="Tutorial on Iorad" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 14.5V11a1 1 0 0 0-1-1h-1c2.24-1.61 2.76-4.73 1.15-7a5.02 5.02 0 0 0-6.98-1.13C9.5 2.35 8.96 3 8.6 3.73a4.985 4.985 0 0 0-6.88 1.64 5 5 0 0 0 1.64 6.88c.21.12.42.25.64.33V21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11zM13 4a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2M6 6a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2"/></svg>
     </a>
   
 </div>
@@ -1563,7 +1797,7 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "search.sharing", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "search.sharing", "navigation.footer", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>

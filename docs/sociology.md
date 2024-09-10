@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![sociology](images/sociology.webp) {: style="float: left"}
+![sociology](images/sociology.webp)
 
 Sociology, as a discipline dedicated to studying social structures, relationships, and behaviours, is increasingly exploring the integration of artificial intelligence (AI) in its practice and education. The field recognises AI's potential to enhance sociologists' capabilities in areas such as data analysis, social research, and theoretical modelling. However, it also grapples with ethical considerations surrounding AI use, particularly in maintaining the critical thinking and human-centered approach that is fundamental to sociology. As the profession evolves, sociology education is adapting to prepare future practitioners for an AI-integrated landscape while emphasising the irreplaceable nature of human insight and professional judgment.
 

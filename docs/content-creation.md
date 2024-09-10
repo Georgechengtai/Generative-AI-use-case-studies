@@ -2,6 +2,7 @@
 search:
   boost: 2 
 ---
+# Content Creation via Generative AI
 
 ![content creation](images/content-creation.webp)
 
@@ -56,7 +57,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 
     **Expected Output:** A brief overview highlighting effects on housing, employment, and community resilience.
 
-    !!! tip
+    ??? tip
         For beginners, this is a general prompt. Provide more context and data for detailed analysis.
 
 !!! example "2. Explainer"
@@ -64,7 +65,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 
     **Expected Output:** An explanation of cultural capital with examples such as educational qualifications and social etiquette.
 
-    !!! tip
+    ??? tip
         Add more context for in-depth exploration.
 
 !!! example "3. Case Study"
@@ -72,7 +73,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 
     **Expected Output:** A detailed account of the referendum process, major political figures, and its impact on trade and policy.
 
-    !!! tip
+    ??? tip
         More context will enhance the case study's depth.
 
 ### Student Engagement
@@ -85,7 +86,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
     - "How does media bias shape public perception?"
     - "What role does media play in political campaigns?"
 
-    !!! tip
+    ??? tip
         Specific examples can make discussions richer.
 
 !!! question "2. Interactive Quiz"
@@ -97,7 +98,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
     - True/false on mobility myths
     - Short answers on theories of stratification
 
-    !!! tip
+    ??? tip
         Tailor questions to specific learning goals.
 
 !!! question "3. Group Project Ideas"
@@ -109,7 +110,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
     - Conduct interviews
     - Present findings
 
-    !!! tip
+    ??? tip
         Specify regions or themes for targeted analysis.
 
 ### Research Skills
@@ -123,7 +124,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
     - Methodology (e.g., surveys or focus groups)
     - Anticipated insights on political participation
 
-    !!! tip
+    ??? tip
         More context will refine the proposal's focus.
 
 !!! abstract "2. Literature Review"
@@ -135,7 +136,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
     - Impacts on labour markets
     - Gaps in policy analysis
 
-    !!! tip
+    ??? tip
         Define scope for a more comprehensive review.
 
 !!! abstract "3. Data Analysis"
@@ -148,10 +149,10 @@ The following prompts are designed to help teachers leverage general-purpose AI 
     - Visual representations (charts or tables)
     - Python code for further study
 
-    !!! tip
+    ??? tip
         Detailed data will enhance the analysis.
 
-    !!! example "Sample Python Code"
+    ??? example "Sample Python Code"
         ```python
         import pandas as pd
         import matplotlib.pyplot as plt
@@ -176,7 +177,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 !!! palette "1. Background Image"
     **Prompt:** "Create a serene background image with soft pastel colours and abstract shapes, suitable for a presentation slide."
 
-    !!! example "Key Elements"
+    ??? example "Key Elements"
         - Soft pastel colors
         - Abstract shapes
         - Serene atmosphere
@@ -185,7 +186,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 !!! palette "2. Poster"
     **Prompt:** "Design a bold and eye-catching poster for a social justice event, featuring symbols of unity and diversity."
 
-    !!! example "Key Elements"
+    ??? example "Key Elements"
         - Bold design
         - Eye-catching colors
         - Symbols of unity
@@ -195,7 +196,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 !!! palette "3. Cover Art"
     **Prompt:** "Generate cover art for a book on urban sociology, incorporating elements of cityscapes and human silhouettes."
 
-    !!! example "Key Elements"
+    ??? example "Key Elements"
         - Cityscape elements
         - Human silhouettes
         - Urban themes
@@ -205,14 +206,14 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 !!! palette "4. Presentation"
     **Prompt:** "Create a modern and professional background for a business presentation, using geometric patterns and a blue colour scheme."
 
-    !!! example "Key Elements"
+    ??? example "Key Elements"
         - Modern design
         - Professional appearance
         - Geometric patterns
         - Blue color scheme
         - Subtle and non-distracting
 
-!!! tip "Enhancing Image Generation Prompts"
+??? tip "Enhancing Image Generation Prompts"
     - Be specific about colors, styles, and themes
     - Include context for the image's intended use
     - Mention key elements or symbols to be included
@@ -235,7 +236,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
         |-----------------|-------------------|
         | "Explain the concept of cultural capital to first-year sociology students." | "Explain the concept of cultural capital to first-year sociology students at a diverse urban university. Use examples relevant to Gen Z students, particularly focusing on how social media influences cultural capital. Aim for a 500-word explanation suitable for a class discussion starter." |
 
-        !!! success "Prompt Refinement Checklist"
+        ??? success "Prompt Refinement Checklist"
             1. :rocket: Start with the base prompt
             2. :books: Add course-specific details
             3. :busts_in_silhouette: Include student demographics and background
@@ -249,10 +250,10 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 ### Further Reading
 
 - From Open AI, [Teaching with AI](https://openai.com/index/teaching-with-ai/)
-- From Mollick, Ethan R. and Mollick, Lilach.
-    - "Practical AI for Teachers and Students". YouTube Playlist. Available at: [YouTube Playlist Link](https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j)
-    - "Assigning AI: Seven Approaches for Students, with Prompts" (June 12, 2023). Available at: [SSRN Link](http://dx.doi.org/10.2139/ssrn.4475995)
-    - "Using AI to Implement Effective Teaching Strategies in Classrooms: Five Strategies, Including Prompts" (March 17, 2023). Available at: [SSRN Link](http://dx.doi.org/10.2139/ssrn.4391243)
+- From Mollick, Ethan R. and Mollick, Lilach:
+    - [Practical AI for Teachers and Students](https://www.youtube.com/playlist?list=PLwRdpYzPkkn302_rL5RrXvQE8j0jLP02j) (YouTube Playlist)
+    - [Assigning AI: Seven Approaches for Students, with Prompts](http://dx.doi.org/10.2139/ssrn.4475995) (June 12, 2023)
+    - [Using AI to Implement Effective Teaching Strategies in Classrooms: Five Strategies, Including Prompts](http://dx.doi.org/10.2139/ssrn.4391243) (March 17, 2023)
 
 ### Well-Crafted Propmts on Web
 
@@ -372,3 +373,5 @@ Here're some well-crafted prompts, created and refined by various sources, colle
 
       8. conclusion: "Wrap up the conversation by thanking the teacher."
     ```
+
+

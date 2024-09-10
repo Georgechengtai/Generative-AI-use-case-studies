@@ -21,7 +21,7 @@ nav:
     - Content Creation: content-creation.md
     - Grading and Feedback: grading-and-feedback.md
     - Virtual Patient Simulation: virtual-patient-simulation.md
-    - AI mentors: mentor.md
+    - AI Mentors: mentor.md
   - Blog: blog.md
 theme:
   name: material
@@ -52,7 +52,8 @@ theme:
   favicon: images/favicon.png
   language: en
   font:
-    text: false
+    text: "Roboto"
+    code: "Fire Code"
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -77,6 +78,8 @@ plugins:
   - search
   - glightbox
   - git-revision-date
+  - offline:
+      enabled: !ENV [OFFLINE, false]
   # - privacy:
   #    log_level: error
 
@@ -128,13 +131,17 @@ extra_css:
 
 markdown_extensions:
   - pymdownx.highlight:
+      linenums_style: table
       anchor_linenums: true
+      line_spans: __span
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
   - pymdownx.arithmatex:
       generic: true
   - footnotes
+  - tables
+  - pymdownx.betterem
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark

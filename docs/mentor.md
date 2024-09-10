@@ -1,20 +1,36 @@
-### Introduction
+# AI Mentors in Education: A New Frontier
 
-In the rapidly evolving landscape of education, artificial intelligence is playing an increasingly significant role. One of the most exciting developments in this field is the emergence of AI mentors powered by generative AI technology. These AI mentors represent a new frontier in personalised learning, offering students in various disciplines, unprecedented access to knowledge and guidance.
+![Mentor](images/mentor.jpg)
 
-Generative AI, exemplified by models like GPT-4, has the ability to understand context, generate human-like text, and engage in complex dialogues. When applied to education, this technology can create AI mentors that adapt to individual student needs, provide instant feedback, and offer explanations on a wide range of topics.
+## Introduction
 
-Unlike traditional educational software, AI mentors powered by generative AI can:
+In the rapidly evolving landscape of education, artificial intelligence is playing an increasingly significant role. One of the most exciting developments in this field is the emergence of AI mentors powered by generative AI technology.
 
-1. Engage in open-ended conversations, allowing students to explore topics in depth
-2. Provide explanations tailored to the student's level of understanding
-3. Generate examples, analogies, and hypothetical scenarios to illustrate complex concepts
-4. Offer writing assistance and feedback across various academic disciplines
-5. Help students develop critical thinking skills through Socratic questioning
+Generative AI, exemplified by models like GPT-4, has transformed the educational landscape by:
 
-While AI mentors are not meant to replace human teachers, they can serve as powerful supplementary tools, available 24/7 to support students in their learning journey.  In fields like social sciences, where critical thinking and nuanced understanding are crucial, AI mentors can help students practice analysis, debate ideas, and explore different perspectives.
+- Understanding context
+- Generating human-like text
+- Engaging in complex dialogues
 
-### Scope
+When applied to education, this technology creates AI mentors that:
+
+1. Adapt to individual student needs
+2. Provide instant feedback
+3. Offer explanations on a wide range of topics
+
+!!! tip "Advantages of AI Mentors"
+    Unlike traditional educational software, AI mentors powered by generative AI can:
+
+    1. Engage in open-ended conversations, allowing students to explore topics in depth
+    2. Provide explanations tailored to the student's level of understanding
+    3. Generate examples, analogies, and hypothetical scenarios to illustrate complex concepts
+    4. Offer writing assistance and feedback across various academic disciplines
+    5. Help students develop critical thinking skills through Socratic questioning
+
+!!! note
+    While AI mentors are not meant to replace human teachers, they can serve as powerful supplementary tools, available 24/7 to support students in their learning journey.
+
+## Scope
 
 The journey of creating an AI mentor powered by generative AI involves several stages of increasing complexity and capability. This guide focuses primarily on the foundational first two levels, which are accessible to teachers and developers with varying degrees of technical expertise.
 
@@ -45,152 +61,182 @@ The journey of creating an AI mentor powered by generative AI involves several s
     - Adapting to **emerging trends** in educational methodologies
 
 
-### Existing Products and Applications
+## Existing Products and Applications
 
 The field of AI mentors and generative AI applications is rapidly evolving. The following selection represents a range of approaches, showcasing the diversity of tools available:
 
 1. **OpenAI GPT Platform**:
-    - Offers state-of-the-art language models like GPT-4
-    - Provides powerful AI capabilities via API access
-    - Includes GPTs (custom versions of ChatGPT) for tailored AI experiences
-    - Best for: A wide range of users, from developers seeking direct API access to those creating custom AI assistants via GPTs
+    - Offers **state-of-the-art language models** like GPT-4
+    - Provides powerful AI capabilities via **API access**
+    - Includes **GPTs (custom versions of ChatGPT)** for tailored AI experiences
+    - Best for: A wide range of users, from developers seeking direct API access to those creating **custom AI assistants** via GPTs
+
 2. **Poe AI**:
-    - Provides access to multiple AI models, including OpenAI's, in a user-friendly chat interface
-    - Allows users to interact with and compare different AI assistants easily
-    - Requires minimal technical knowledge to use
-    - Best for: Teachers and individuals looking for an easy way to explore and use various AI models for experimental purposes
+    - Provides access to **multiple AI models**, including OpenAI's, in a **user-friendly chat interface**
+    - Allows users to **interact with and compare different AI assistants** easily
+    - Requires **minimal technical knowledge** to use
+    - Best for: Teachers and individuals looking for an **easy way to explore and use various AI models** for experimental purposes
+
 3. **Hugging Face**:
-    - Open-source platform with a vast library of pre-trained AI models and tools
-    - Provides a balance of accessibility and customisation options
-    - Best for: Researchers and developers who want to experiment with a wide range of models and fine-tune them for specific purposes
+    - **Open-source platform** with a vast library of **pre-trained AI models and tools**
+    - Provides a balance of **accessibility and customisation options**
+    - Best for: Researchers and developers who want to **experiment with a wide range of models** and **fine-tune them** for specific purposes
+
 4. **Rasa**:
-    - Open-source framework for building conversational AI assistants
-    - Allows for creation of more customised and context-aware chatbots
-    - Focuses on building complete conversational AI systems
-    - Best for: Those looking to create specialised AI assistants with specific conversational flows
+    - **Open-source framework** for building **conversational AI assistants**
+    - Allows for creation of more **customised and context-aware chatbots**
+    - Focuses on building **complete conversational AI systems**
+    - Best for: Those looking to create **specialised AI assistants** with specific conversational flows
 
-### How to build an AI mentor using Custom GPTs
+## How to build an AI mentor using Custom GPTs
 
-One exciting development in educational technology is the ability to create personalised AI mentors using Custom GPTs. This guide will walk you through the process. (POE allows you to create custom bots easily, but its functionalities and customisability are quite limited)
-##### What is a Custom GPT?  
-For those new to this concept, a Custom GPT is a personalised version of ChatGPT, an AI chatbot. It's like training a virtual assistant to be an expert in a particular area of social sciences. Don't worry if you're not tech-savvy - no coding is required! (Though admittedly, if you aim to incorporate third-party services within Custom GPTs, you have to understand the services and integration to make the API calls.)
+One exciting development in educational technology is the ability to create personalised AI mentors using Custom GPTs. This guide will walk you through the process. (POE allows you to create custom bots easily, but its functionalities and customisability are seriously limited)
 
-**Step 1: Define Your AI Mentor's Purpose**
+## How to build an AI mentor using Custom GPTs
 
-First, consider what kind of mentor would be most beneficial for your students. Some ideas include:
+!!! info "What is a Custom GPT?"
+    For those new to this concept, a Custom GPT is a personalised version of ChatGPT, an AI chatbot. It's like training a virtual assistant to be an expert in a particular area of social sciences. Don't worry if you're not tech-savvy - no coding is required! (Though admittedly, if you aim to incorporate third-party services within Custom GPTs, you have to understand the services and integration to make the API calls.)
 
-- **A research methodology advisor** to guide students through various research designs
-- **A statistics tutor** to help with quantitative analysis
-- **A career counsellor** specialising in career paths in Hong Kong
-- **A writing coach** for academic papers and dissertations
+!!! example "Step-by-Step Guide"
 
-Think about the challenges you or your peers face in your studies at CUHK and how an AI mentor could help.
+    ??? note "Step 1: Define Your AI Mentor's Purpose"
+        First, consider what kind of mentor would be most beneficial for your students. Some ideas include:
 
-**Step 2: Access the GPT Builder**
+        - A research methodology advisor to guide students through various research designs
+        - A statistics tutor to help with quantitative analysis
+        - A career counsellor specialising in career paths in Hong Kong
+        - A writing coach for academic papers and dissertations
 
-You'll need a **ChatGPT Plus subscription** to get started. Once logged in:
+        Think about the challenges you or your peers face in your studies at CUHK and how an AI mentor could help.
 
-1. Look for the **'Create a GPT' option**.
-2. Click to open the GPT Builder interface.
+    ??? note "Step 2: Access the GPT Builder"
+        You'll need a **ChatGPT Plus subscription** to get started. Once logged in:
 
-**Step 3: Start Creating**
+        1. Look for the 'Create a GPT' option.
+        2. Click to open the GPT Builder interface.
 
-You can either:
+    ??? note "Step 3: Start Creating"
+        You can either:
 
-1. **Chat with the GPT Builder**, describing your ideal mentor for your students.
-2. Use the **'Configure' options** to set things up manually.
+        1. Chat with the GPT Builder, describing your ideal mentor for your students.
+        2. Use the 'Configure' options to set things up manually.
 
-For example, you might say, "I want to create a research methodology advisor that can guide CUHK social science students through various research designs, with a focus on local Hong Kong contexts."
+        For example, you might say, "I want to create a research methodology advisor that can guide CUHK social science students through various research designs, with a focus on local Hong Kong contexts."
 
-**Step 4: Personalise Your Mentor**
+    ??? note "Step 4: Personalise Your Mentor"
+        Give your AI mentor a name and personality that resonates with your students. You could:
 
-Give your AI mentor a **name and personality** that resonates with your students. You could:
+        - Choose a name like 'CUHK SocSci Guide'
+        - Write a brief description of its expertise in social science disciplines taught at CUHK
+        - Select an avatar that represents CUHK or the Faculty of Social Sciences
 
-- Choose a name like 'CUHK SocSci Guide'
-- Write a **brief description** of its expertise in social science disciplines taught at CUHK
-- Select an **avatar** that represents CUHK or the Faculty of Social Sciences
+    ??? note "Step 5: Build Your Mentor's Knowledge Base"
+        This is where you 'educate' your AI mentor about your courses. You can:
 
-**Step 5: Build Your Mentor's Knowledge Base**
+        - Upload relevant documents (e.g., CUHK course syllabi, faculty handbooks)
+        - Provide links to CUHK Social Science Faculty websites
+        - Give it specific instructions on CUHK's academic policies and research ethics guidelines
 
-This is where you 'educate' your AI mentor about your courses. You can:
+        For instance, if you're creating a statistics tutor, you might upload materials from CUHK's quantitative methods courses.
 
-- **Upload relevant documents** (e.g., CUHK course syllabi, faculty handbooks)
-- Provide **links to CUHK Social Science Faculty websites**
-- Give it specific instructions on **CUHK's academic policies and research ethics guidelines**
+    ??? note "Step 6: Set Up Conversation Starters"
+        Create icebreakers relevant to CUHK social science students. For a research methodology advisor, these might include:
 
-For instance, if you're creating a statistics tutor, you might upload materials from CUHK's quantitative methods courses.
+        - "How do I choose between qualitative and quantitative methods for my Hong Kong-based study?"
+        - "Can you explain the ethical considerations for conducting interviews in Hong Kong?"
+        - "What are some effective ways to recruit participants for my study at CUHK?"
 
-**Step 6: Set Up Conversation Starters**
+        !!! warning
+            Be aware, without building knowledge base in step 5, the output can be too general and lack of relevant context. Without finetuning and testing in step 7 and step 8, the output may be situationally relevant but in an unfavourable manner.
 
-Create icebreakers relevant to CUHK social science students. For a research methodology advisor, these might include:
+    ??? note "Step 7: Fine-tune Your Mentor's Personality"
+        Shape your AI mentor to reflect your teaching philosophy. You might want it to be:
 
-- "How do I choose between qualitative and quantitative methods for my Hong Kong-based study?"
-- "Can you explain the ethical considerations for conducting interviews in Hong Kong?"
-- "What are some effective ways to recruit participants for my study at CUHK?"
+        - Encouraging and supportive, understanding the pressures of university life in Hong Kong
+        - Knowledgeable about both Western and Eastern social science perspectives
+        - Able to provide examples relevant to Hong Kong and Greater China contexts
 
-Be aware, without building knowledge base in step 5, the output can be too general and lack of relevant context. without finetuning and testing in step 7 and step 8, the output may be situationally relevant but in an unfavourable manner.
+    ??? note "Step 8: Test Thoroughly"
+        Before sharing your AI mentor with fellow students, test it rigorously. Ask it questions about your course contents, local research contexts, or current social issues in Hong Kong.
 
-**Step 7: Fine-tune Your Mentor's Personality**
+    ??? note "Step 9: Add Extra Capabilities (Optional)"
+        Consider adding abilities like:
 
-Shape your AI mentor to reflect your teaching philosophy. You might want it to be:
+        - Web browsing (to find up-to-date information)
+        - Code interpreter (for helping with SPSS, Python or R inputs and outputs)
+        - Image Generation (Dall-E 3) as well as other top-performing models like Sora for video generation, Whisper for voice generation (The advanced voice mode will be incorporated into the GPT interface in future by default)
 
-- **Encouraging and supportive**, understanding the pressures of university life in Hong Kong
-- **Knowledgeable about both Western and Eastern social science perspectives**
-- Able to provide **examples relevant to Hong Kong and Greater China contexts**
+    ??? note "Step 10: Publish Your AI Mentor"
+        Decide how widely you want to share your creation:
 
-**Step 8: Test Thoroughly**
+        - Only me (just for your personal use)
+        - Only people with a link (for your classmates or research group)
+        - Public (for all CUHK students or even wider)
 
-Before sharing your AI mentor with fellow students, **test it rigorously**. Ask it questions about your course contents, local research contexts, or current social issues in Hong Kong.
+    ??? note "Step 11: Gather Feedback and Improve"
+        Collect feedback from your peers and professors in the Faculty of Social Sciences. Use their insights to refine your AI mentor, ensuring it remains relevant and helpful for CUHK students.
 
-**Step 9: Add Extra Capabilities (Optional)**
+## Example Prompts of TutorAI workflow
 
-Consider adding abilities like:
+TutorAI is an application that creates interactive education content on any topic. The developer has kindly shared the 7 prompts used behind the scenes:
 
-- **Web browsing** (to find up-to-date information)
-- **Code interpreter** (for helping with SPSS, Python or R inputs and outputs)
-- **Image Generation (Dall-E 3)** as well as other top-performing models like **Sora for video generation**, **Whisper for voice generation** (The advanced voice mode will be incorporated into the GPT interface in future by default)
+!!! example "TutorAI Prompts"
 
-**Step 10: Publish Your AI Mentor**
+    1. **Generating the Modules**  
+       Prompt: "A student wants to learn about a topic, generate 4 modules that a student can use to learn. A module consists of a title and a description, separated by a colon."
 
-Decide how widely you want to share your creation:
+    2. **Generating the Lessons**  
+       Prompt: "Create an outline with 4 sections for teaching a student about the topic and module"
 
-- **Only me** (just for your personal use)
-- **Only people with a link** (for your classmates or research group)
-- **Public** (for all CUHK students or even wider)
+    3. **Generating the lesson content**  
+       Prompt: "Teach a student about the below topic and subtopic and by writing multiple paragraphs"
 
-Step 11: Gather Feedback and Improve
+    4. **Simplify**  
+       Prompt: "Summarise this for a second-grade student"
 
-Collect feedback from your peers and professors in the Faculty of Social Sciences. Use their insights to refine your AI mentor, ensuring it remains relevant and helpful for CUHK students.
+    5. **Examples**  
+       Prompt: "Generate concrete examples for this to make it clearer"
 
-### Example Prompts of TutorAI workflow
+    6. **Quiz**  
+       Prompt: "Write one hard multiple choice question and its answer to make sure the reader understands the following content"
 
-Let's have a look TutorAI, an application that creates interactive education content on any topic. The developer has kindly share the 7 prompts used behind the hood:
+    7. **Ask a question**  
+       Prompt: "Answer the question about the content"
 
-**1. Generating the Modules**  
-Prompt: **"A student wants to learn about a topic, generate 4 modules that a student can use to learn. A module consists of a title and a description, separated by a colon."**
+!!! info "How TutorAI Works"
+    TutorAI integrates these prompts into a single, user-friendly web-based interface for quick interaction. Users do not type the prompts themselves; instead, they simply input a topic they want to learn about. The system then seamlessly utilises these prompts behind the scenes to generate a comprehensive learning experience. The interface presents users with modules, lessons, and interactive elements, allowing them to navigate through the content and engage with various learning aids at the click of a button.
 
-**2. Generating the Lessons**  
-Prompt: **"Create an outline with 4 sections for teaching a student about the topic and module"**
+!!! tip "Building Similar Applications"
+    To achieve similar results is not easy, and requires some level of coding knowledge. However, we would like to show how a simple yet useful application can be built in 7 layers of AI, knowing the prompts can be customised and the application can be used for various purposes and incorporated into many possible workflows.
 
-**3. Generating the lesson content**  
-Prompt: **"Teach a student about the below topic and subtopic and by writing multiple paragraphs"**
+### Benefit of this Architecture
 
-**4. Simplify**  
-Prompt: **"Summarise this for a second-grade student"**
+<div class="grid cards" markdown>
 
-**5. Examples**  
-Prompt: **"Generate concrete examples for this to make it clearer"**
+- :material-book-education: **Customizable Learning**
+    
+    Prompts can be tailored for different subjects and learning styles.
 
-**6. Quiz**  
-Prompt: **"Write one hard multiple choice question and its answer to make sure the reader understands the following content"**
+- :material-code-array: **Modular Design**
+    
+    Each prompt serves a specific function in the learning process.
 
-**7. Ask a question**  
-Prompt: **"Answer the question about the content"**
+- :material-account-group: **User-Friendly Interface**
+    
+    Users interact with a simple input field, while complex prompts work behind the scenes.
 
-TutorAI integrates these prompts into a single, user-friendly web-based interface for quick interaction. Users do not type the prompts themselves; instead, they simply input a topic they want to learn about. The system then seamlessly utilises these prompts behind the scenes to generate a comprehensive learning experience. The interface presents users with modules, lessons, and interactive elements, allowing them to navigate through the content and engage with various learning aids at the click of a button.
+- :material-toolbox: **Versatile Application**
+    
+    Can be adapted for various educational purposes and integrated into different workflows.
 
-To achieve similar results is not easy, and requires some level of coding knowledge. However, we would like to show how a simple yet useful application can be built in 7 layers of AI, knowing the prompts can be customised and the application can be used for various purposes and incorporated into many possible workflows.
-### Appendix
+</div>
+
+## Appendix
+
+### Further Reading
+
 - [Create Your Custom GPT Without Coding: A Step-by-Step Guide to Personalized AI | Dare To Be Better](https://medium.com/dare-to-be-better/how-i-created-custom-gpt-dsa-tutor-gpt-no-coding-b1227459aaf5)
 - [Custom GPTs Unleashed: Creating a GPT-powered Math Tutor in a blink | by Rahul Pandey | DSciEr | Medium](https://medium.com/dscier/custom-gpts-unleashed-creating-a-gpt-powered-math-tutor-in-a-blink-323130c0903f)
 - [Daniel Habib's X tweets on TutorAI](https://x.com/DannyHabibs/status/1598069511369867264)
+
+
