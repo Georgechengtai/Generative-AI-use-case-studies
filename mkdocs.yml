@@ -26,37 +26,87 @@ nav:
 theme:
   name: material
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.expand
+    - navigation.indexes
     - toc.follow
     # - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
+    - search.sharing
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    logo: fontawesome/solid/robot
+  favicon: images/favicon.png
   language: en
+  font:
+    text: "Roboto"
+    code: "Fira Code"
   palette:
-    - scheme: default
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      # primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      # primary: teal
-      accent: lime
+        icon: material/brightness-auto
+        name: Switch to light mode
 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 plugins:
-  # - social
   - search
   - glightbox
   - git-revision-date
+  - privacy
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - reject
+      - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+        provider: google
+        property: G-V49W4H5DHF
+        feedback:
+          title: Was this page helpful?
+          ratings:
+            - icon: material/emoticon-happy-outline
+              name: This page was helpful
+              data: 1
+              note: >-
+                Thanks for your feedback!
+            - icon: material/emoticon-sad-outline
+              name: This page could be improved
+              data: 0
 
 # extra:
   # - social:
@@ -87,4 +137,4 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2024 <a href="https://www.cuhk.edu.hk/english/faculties/social-science.html" target="_blank" rel="noopener">Faculty of Social Science, CUHK</a>
+  &copy; 2024 <a href="https://www.cuhk.edu.hk/english/faculties/social-science.html" target="_blank" rel="noopener">Faculty of Social Science, CUHK</a> <a href="#__consent">[Change cookie settings]</a>

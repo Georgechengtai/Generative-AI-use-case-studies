@@ -1,6 +1,7 @@
 ---
 hide:
   - navigation
+  - toc
 ---
 
 # Welcome to the Generative AI in Education Exploration
@@ -11,6 +12,8 @@ hide:
 
 ![Curious Robot](images/curiousrobot.webp)
 
+
+</figure>
 
 ## What You'll Discover
 

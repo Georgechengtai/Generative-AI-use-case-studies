@@ -1,3 +1,7 @@
+---
+search:
+  boost: 2 
+---
 
 ![content creation](images/content-creation.webp)
 
@@ -20,14 +24,15 @@ It's important to note that a chatbot interface is not the only way GPT can be u
 
 ## Existing Products and Applications
 
-*Note: may not be directly relevant to generative AI and higher education*
+!!! info "Disclaimer"
+    This section may not be directly relevant to generative AI and higher education.
 
-### Integrations to Existing Workflows:
+### Integrations to Existing Workflows
 
 4. **Adobe Firefly Integration**: This suite of AI-powered tools integrated into Photoshop enhances creative workflows. It offers features like Generative Fill, Generative Expand, Text Effects, and Image Generation, providing more intuitive and flexible creative options for design students.
 5. **Notion AI for Productivity**: This integrated feature in Notion enhances productivity by automating tasks and generating content. It assists with content generation, task automation, data extraction, meeting notes, and creative assistance, streamlining workflows for users.
 
-### Standalone AI-Powered Products:
+### Standalone AI-Powered Products
 
 6. **Synthetic Data Generation with Gretel.ai**: This tool creates realistic datasets that mimic the statistical properties of real data. It's useful for research projects, data science courses, and scenario simulations where real data is limited or restricted.
 7. **Music and Video Creation with Suno and Synthesia**: Suno offers AI-driven music composition and sound design, while Synthesia focuses on AI video generation with customisable avatars. These tools can enhance multimedia projects and presentations.
