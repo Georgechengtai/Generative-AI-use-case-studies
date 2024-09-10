@@ -40,6 +40,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.sharing
+    - navigation.footer
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
@@ -115,11 +116,11 @@ extra:
 
 
 # extra:
-  # - social:
-  #   - icon: fontawesome/brands/github-alt
-  #     link: 
-  #   - icon: fontawesome/brands/facebook
-  #     link: 
+  social:
+    - icon: material/video-vintage
+      link: https://www.iorad.com/help-center/162026?roleId=11284
+      name: Tutorial on Iorad
+  generator: false
 
 extra_css:
   - style.css

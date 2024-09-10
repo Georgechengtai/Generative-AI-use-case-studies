@@ -2,6 +2,9 @@
 hide:
   - navigation
   - toc
+  
+comments: true
+
 ---
 
 # Welcome to the Generative AI in Education Exploration
