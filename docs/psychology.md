@@ -4,7 +4,7 @@
 
 ![psychology](images/psychology.jpg)
 
-Artificial Intelligence (AI) is rapidly transforming psychology education, offering innovative opportunities to enhance teaching, research, and clinical training. As the field grapples with ethical implications and potential risks, there's growing recognition of AI's capacity to augment psychological practice and expand access to mental health resources. Psychology educators are exploring creative ways to incorporate AI tools into curricula, preparing future practitioners for an increasingly tech-integrated professional environment. The integration of AI presents both challenges and opportunities, emphasizing the need to maintain the human-centered approach fundamental to psychological practice while leveraging AI's potential to improve learning outcomes and clinical skills.
+Artificial Intelligence (AI) is rapidly transforming psychology education, offering innovative opportunities to enhance teaching, research, and clinical training. As the field grapples with ethical implications and potential risks, there's growing recognition of AI's capacity to augment psychological practice and expand access to mental health resources. Psychology teachers are exploring creative ways to incorporate AI tools into curricula, preparing future practitioners for an increasingly tech-integrated professional environment. The integration of AI presents both challenges and opportunities, emphasising the need to maintain the human-centered approach fundamental to psychological practice while leveraging AI's potential to improve learning outcomes and clinical skills.
 
 ## Potential AI Applications in Teaching and Learning
 

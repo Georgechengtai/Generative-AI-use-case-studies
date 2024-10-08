@@ -1,5 +1,30 @@
 # Blog
 
+## OpenAI's latest model, o1's Capabilities (Sep 2024)
+
+- Observed GPT's latest version, o1, 's capabilities:
+    - Generating a Blender script for an animated solar system.
+    - Building a functional _Flappy Bird_ in React.js.
+    - Composing poetry with stringent rules. ![GXS9Nqka4AAMCkP](https://pbs.twimg.com/media/GXS9Nqka4AAMCkP?format=png&name=large)
+    - Solving puzzles with correct answers despite flawed reasoning.
+    - Generated a Game (a substantial HTML file with embedded JavaScript)
+	    - Reference: [Reddit post on GPT-4 creating a 3D FPS game](https://www.reddit.com/r/ChatGPT/comments/1fhg9t7/comment/ln9wdhq/)
+
+!!! example "Impressive and Potential Academic Application"
+    A particularly striking example of o1's potential in academia comes from a PhD student in Physics & Astrophysics. In a viral video, the researcher demonstrated how o1 was able to reproduce the core functionality of his PhD code in just one hour, a task that had originally taken him ten months to complete.
+
+    Key points:
+    - After about 6 prompts, o1 created a running version of the code described in the methods section of the researcher's paper.
+    - While the generated code used synthetic data rather than real astronomical data, it successfully emulated the functionality of the original work.
+    - This demonstration highlights o1's potential to significantly accelerate research workflows, especially in data-heavy fields.
+
+    !!! quote "Researcher's Reaction"
+        "The potential it has is incredible, to effectively accomplish what I struggled for about 10 months in my first year of my PhD."
+
+---
+
+
+
 ## Understanding Claude's Artifacts
 
 <div class="iframe-wrapper">
@@ -102,3 +127,95 @@ For teachers who have already explored the basics of AI interaction through our 
 
     ???+ note "Comparisons between prompting and other AI customization methods"
         Understand the strengths and limitations of prompt engineering compared to other AI customisation approaches, helping you choose the best method for your teaching goals.
+
+---
+
+
+## SocialAI App
+
+SocialAI is an innovative iOS app that creates a unique social media experience by replacing human interactions with AI-generated responses. Developed by Michael Sayman, this app allows users to post content similar to platforms like Twitter or Threads, but with all responses coming from AI-generated characters.
+
+### Key Features
+
+- **User-Customised AI Interactions**: Users can choose the types of AI characters they want to interact with (e.g., fans, trolls, skeptics, visionaries).
+- **Instant AI Responses**: After making a post, users receive immediate responses from multiple AI personas.
+- **Private Network**: The user is the only real human in their network. All interactions are with AI bots.
+- **Idea Testing Platform**: Users can test ideas or seek diverse perspectives without real human judgment.
+
+### Purpose and Applications
+
+- Provides a space for testing social media posts before sharing on real platforms.
+- Offers a tool for self-reflection and exploring diverse viewpoints.
+- Serves as an experiment in AI-human interaction in social media contexts.
+
+### Ethical and Psychological Considerations
+
+1. **Echo Chamber Effects**: Potential to exacerbate echo chambers by allowing users to curate their AI audience.
+2. **Privacy Concerns**: Questions about data privacy and how user inputs might be used to train AI models.
+3. **Impact on Social Interactions**: Raises questions about the nature of online interactions and the effects of replacing human connections with AI.
+
+### Reception and Discussion
+
+- Generated significant interest in tech circles.
+- Seen as a fascinating experiment in AI and social media integration.
+- Criticized for potentially replacing genuine human connections.
+- Viewed as a commentary on the current state of social media.
+
+### Resources
+
+- [YouTube Video Introduction](https://youtu.be/tQxN0ySqocQ?si=nznncoxQY37l8YNZ)
+- [Developer's Tweet](https://x.com/michaelsayman/status/1835841675584811239)
+- [The Verge Article](https://www.theverge.com/2024/9/17/24247253/social-ai-app-replace-humans-with-bots)
+- [WIRED Article](https://www.wired.com/story/socialai-app-ai-chatbots-chatgpt/)
+
+### Academic Potential
+
+SocialAI offers interesting possibilities for various academic disciplines:
+
+- **Psychology**: Studying the impact of AI interactions on user behavior and mental health.
+- **Sociology**: Analyzing the dynamics of artificial social networks.
+- **Media Studies**: Examining the evolution of social media platforms and user engagement.
+- **Ethics**: Exploring the ethical implications of AI-driven social interactions.
+
+The app's design and mechanism make it a potential tool for mind experiments and ice breakers in academic settings.
+
+---
+
+## Microsoft Copilot at CUHK
+
+!!! warning "Limited Availability"
+    Currently, there is no quick solution to experiment with Copilot at CUHK. The process for lecturers to access Copilot requires ITSC assistance and may be complex and time-consuming.
+
+### Implementation Process
+
+To use Microsoft 365 Copilot in a CUHK account, staff need to:
+
+1. Upgrade to Microsoft A3 Licence plan
+2. Submit the Microsoft Software Subscription Purchase Requisition form
+3. (Optional) Install or update the Microsoft Office Desktop App
+
+### Potential Benefits
+
+!!! example "New Features Worth Exploring (shown in Microsoft's Wave 2 Copilot Event)"
+    - Python integration in Excel
+    - AI-powered task automation (similar to PowerAutomate, but more powerful)
+    - Advanced email management in Outlook (a short introduction is provided below)
+
+!!! tip "Most Relevant for CUHK"
+    The Outlook features, particularly email management and prioritisation, might be the most immediately useful for CUHK staff and lecturers.
+
+    #### Outlook Features
+
+    - "Prioritise My Inbox" feature
+        - Email summarisation as embedded features
+        - Action item highlighting
+        - Customisable priority settings to sort emails
+
+
+### Limitations and Concerns
+
+!!! danger "Privacy Concerns"
+    The use of AI in handling potentially sensitive university communications raises privacy issues.
+
+!!! question "Limited Use Cases"
+    Given the existence of Blackboard, it's unclear if there's a strong demand for digitalising teaching materials or faster file retrieval among lecturers.

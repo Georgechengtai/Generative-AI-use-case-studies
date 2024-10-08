@@ -130,7 +130,7 @@ The following prompts are designed to help teachers leverage general-purpose AI 
 !!! abstract "2. Literature Review"
     **Prompt:** "Conduct a literature review on migration patterns and their socio-economic impacts, identifying key trends and research gaps. [Insert specific regions or factors]"
 
-    **Expected Output:** A review summarizing:
+    **Expected Output:** A review summarising:
     
     - Studies on migration drivers
     - Impacts on labour markets

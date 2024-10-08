@@ -28,3 +28,5 @@ OpenAI's forthcoming "Strawberry" model promises to be a game-changer in artific
 - Self-improvement: Learns from its own experiences, getting better at solving new challenges on its own.
 - Top marks: Performed brilliantly in tough tests, outshining previous AI models by a wide margin.
 - Coming to ChatGPT: Plans are underway to make Strawberry's clever thinking available to everyone through the popular ChatGPT service interface.
+
+As of 12th September, 2024, OpenAI release its "Strawberry", [OpenAI o1](blog.md#openais-latest-model-o1s-capabilities-sep-2024). 

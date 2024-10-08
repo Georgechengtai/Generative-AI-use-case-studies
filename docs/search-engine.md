@@ -45,7 +45,7 @@ Below are three notable examples, each with its own distinct focus (screenshots 
 
 - Searches across over 126 million academic papers from the Semantic Scholar corpus across all academic disciplines
 - Extracts specific information from papers (e.g., sample sizes, methodologies)
-- Generates a customisable literature review table based on user-defined criteria, allowing researchers to compare and analyze multiple papers efficiently
+- Generates a customisable literature review table based on user-defined criteria, allowing researchers to compare and analyse multiple papers efficiently
 
 ## Final Remarks
 
