@@ -1,7 +1,7 @@
 site_name: Generative AI Use Case Studies
 site_url: https://georgechengtai.github.io/Generative-AI-use-case-studies
 nav:
-  - Home: index_2025.md
+  - Home: index.md
   - What LLM Can Do:
       #- Agentic Workflow, Fully Explained: agent.md
     - What LLMs Can Actually Do Today: common-capacities.md
