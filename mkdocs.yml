@@ -1,28 +1,78 @@
 site_name: Generative AI Use Case Studies
 site_url: https://georgechengtai.github.io/Generative-AI-use-case-studies
 nav:
-  - Home: index.md
-  - Catching up with Generative AI Development:
-    - GPT-4o (OpenAI): gpt4o.md
-    - Notable Flagship Models after GPT-4o: flagship-models.md
-    - Multimodality: multimodality.md
-    - AI-powered Avatars and Voice Cloning: aivideo.md
-    - AI-powered Search Engines: search-engine.md
-    - Scenario-based Learning with lifelike Virtual Characters: virtual-character.md
-    - Personalised and Adaptive Learning: palearning.md
-    - Literature Review: literature-review.md
-    - For SEN (Special Educational Needs) students: sen.md
-  - Discipline-Specific Studies:
-    - Journalism and Communication: journalism-and-communication.md
-    - Psychology: psychology.md
-    - Social Work: social-work.md
-    - Sociology: sociology.md
-  - Functionalities and Applications:
-    - Content Creation: content-creation.md
-    - Grading and Feedback: grading-and-feedback.md
-    - Virtual Patient Simulation: virtual-patient-simulation.md
-    - AI Mentors: mentor.md
-  - Blog: blog.md
+  - Home: index_2025.md
+  - What LLM Can Do:
+      #- Agentic Workflow, Fully Explained: agent.md
+    - What LLMs Can Actually Do Today: common-capacities.md
+    - Software Explainer: 
+      - NotebookLM: notebookLM.md
+    - Functionalities as Chatbot (2024):
+      - Content Creation: content-creation.md
+      - Grading and Feedback: grading-and-feedback.md    
+      - Role-Playing: role-playing.md      
+      - Mentoring: mentor.md
+    - Applications for Educational Purposes (2024):
+      - AI-powered Avatars and Voice Cloning: aivideo.md
+      - AI-powered Search Engines: search-engine.md
+      - Virtual Characters for Learning: virtual-character.md
+      - Personalised and Adaptive Learning: palearning.md
+      - Literature Review: literature-review.md
+      - Multimodality: multimodality.md
+      - For SEN Students: sen.md
+  - What LLM Cannot Do:
+    - Common Questions About LLMs: common-faqs.md
+    - Understanding LLMs - Beyond the Black Box:
+      - Can AI Actually 'Think'?: explainability.md
+      - ...and Why It Makes Stuff Up?: hallucination.md 
+  - How to Prompt Chatbots:
+    - Section Overview: pe_g.md
+    - Guides:
+      - Set the Context - Let AI Ask: pe_g1.md
+      - Assign the Role - Who Serves Best?: pe_g2.md
+      - Fix your Mind - Meta-Prompting: pe_g3.md
+      - Forget What's Been Said: pe_g4.md
+      - Further Reading: 
+        - Prompting Skills - Now Baked Into AI: pe_g5.md 
+        - pe_g6.md
+    - Ready-Made Templates:
+      - How to Master Any Topics via Reasoning Models?: pe_t1.md
+      - How Not to Get Useless Responses?: pe_t2.md
+      - pe_t3.md
+      - pe_t4.md
+      - pe_t5.md
+      - pe_t6.md
+      - pe_t7.md
+      - pe_t8.md
+  - Learn From Whose tried AI:
+    - CUHK Use Case - Dr. Mok (ECO):
+      - Benchmark Exam Answers in Economics: wallace_1.md
+      - Address Student Research Challenges in Projects: wallace_2.md
+      - Simplify, Understand and Convert Codes for Research: wallace_3.md
+      - Learn Investment Strategy Through AI-Guided Simulations: wallace_4.md
+      - Refining Business Proposals Through AI-Assisted Feedback: wallace_5.md
+    - Case Studies/Experiences shared by other unversities:
+      - Journalism and Communication: journalism-and-communication.md
+      - Psychology: psychology.md
+      - Social Work: social-work.md
+      - Sociology: sociology.md
+  - Where is AI Going:
+    - Model Evolution:
+      - After DeepSeel-R1 (Mar 2025): 2025_new_models.md
+      - After GPT-4o (Jun 2024): flagship-models.md
+      - GPT-4o (OpenAI): gpt4o.md
+    - DeepSeek: 
+      - Introduction: deepseek.md
+      - For interested readers:
+        - Technical Overview: deepseek-overview.md
+        - Industry Impact: deepseek-impact.md
+        - Societal Implications: deepseek-implications.md
+        - Privacy Considerations: deepseek-privacy.md
+        - Extra Resources: deepseek-resources.md
+    - AI development (not just LLM):
+      - Latest Breakthoughs & Tools (since Mar 2025): AI_development_tracker.md
+      - Personal Finding and Sharing (outdated, 2024) : blog.md
+
 theme:
   name: material
   custom_dir: docs/overrides
@@ -143,7 +193,11 @@ markdown_extensions:
   - tables
   - pymdownx.betterem
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.mark
   - attr_list
   - md_in_html

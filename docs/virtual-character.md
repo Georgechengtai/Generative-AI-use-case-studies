@@ -41,6 +41,6 @@ Now, with the bloom of large language models and generative AI, creating lifelik
 
 ## Further Exploration
 
-For those interested in delving deeper into the practical aspects of implementing these technologies, we have prepared a separate [article](virtual-patient-simulation.md). This resource provides a more in-depth look at the creation of virtual characters using generative AI, including some of the challenges and advanced techniques involved. 
+For those interested in delving deeper into the practical aspects of implementing these technologies, we have prepared a separate [article](role-playing.md). This resource provides a more in-depth look at the creation of virtual characters using generative AI, including some of the challenges and advanced techniques involved. 
 
 It's worth noting that the materials provided within the article only offer a preliminary demonstration of how to create virtual characters using custom GPT or most Large Language Models (LLMs).

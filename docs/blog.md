@@ -2,7 +2,7 @@
 
 ## OpenAI's latest model, o1's Capabilities (Sep 2024)
 
-- Observed GPT's latest version, o1, 's capabilities:
+- Observed GPT's latest version, o1's capabilities:
     - Generating a Blender script for an animated solar system.
     - Building a functional _Flappy Bird_ in React.js.
     - Composing poetry with stringent rules. ![GXS9Nqka4AAMCkP](https://pbs.twimg.com/media/GXS9Nqka4AAMCkP?format=png&name=large)

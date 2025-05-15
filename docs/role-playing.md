@@ -1,10 +1,10 @@
-# Virtual Patient Simulation via Generative AI
+# Role-Playing via Generative AI
 
 ## Introduction
 
 ![simulation](images/simulation.jpg)
 
-Virtual patient simulation via Generative AI is an innovative approach to education within the Faculty of Social Science at CUHK. It leverages generative AI to provide students with realistic, interactive patient scenarios that closely mimic real-world situations. This technology enhances students' understanding of theoretical concepts while honing practical skills in a safe, controlled environment. It's particularly beneficial in disciplines like psychology, sociology, and social work, where interacting with individuals experiencing various psychological or sociological issues is crucial.
+Role-playing enables students to participate in realistic, interactive scenarios that closely mimic real-world situations, enhancing students' understanding of theoretical concepts while honing practical skills in a safe, controlled environment. It's particularly beneficial in disciplines like psychology, sociology, and social work, where interacting with individuals experiencing various psychological or sociological issues is crucial.
 
 !!! note "Benefits"
     - Enhances understanding of theoretical concepts

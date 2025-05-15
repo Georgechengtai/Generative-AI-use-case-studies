@@ -96,7 +96,7 @@ Ready to dive in? Here are some starting points:
 <div class="grid cards" markdown>
 
 - :material-grease-pencil: [Grading and Feedback](grading-and-feedback.md)
-- :material-hospital-box: [Virtual Patient Simulation](virtual-patient-simulation.md)
+- :material-hospital-box: [Virtual Patient Simulation](role-playing.md)
 - :material-account-tie: [AI mentor](mentor.md)
 
 </div>

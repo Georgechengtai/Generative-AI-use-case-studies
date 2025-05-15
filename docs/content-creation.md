@@ -1,10 +1,10 @@
----
-search:
-  boost: 2 
----
 # Content Creation via Generative AI
 
 ![content creation](images/content-creation.webp)
+
+!!! tip "Image Generation with ease by GPT-4o image (2025)"
+
+    Multimodal AI can definitely generate images too. We was afraid that learning how to work with platforms (e.g. Midjourney) or models (e.g. Stable Diffusion) would cost too many. But now, with GPT-4o image, everday users can have a taste of the top-performing image generation capabilities in simple words. You can [check our sharing here](AI_development_tracker.md/#openais-gpt-4o-takes-chat-based-image-generation-to-new-heights-mar-28-2025). 
 
 ## Introduction
 

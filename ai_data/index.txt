@@ -1,0 +1,72 @@
+
+
+Generative AI in Education
+AI is in its blank canvas era — you need to use it, a lot, to see where it can actually be useful or helpful.
+
+Get Started
+Video Tutorials
+
+
+
+
+Welcome to the Generative AI in Education Exploration
+
+quote "AI in Education"
+AI tools are like those Christmas presents you unwrap—you don't really know what they can do until you start messing around with them. It takes some tinkering, experimenting, and plain old playtime to figure out how to make the most of these tools.
+AI is in its blank canvas era—you need to use it, a lot, to see where it can actually be useful or helpful.
+Like a gentle stream carving its path through a mountain, we invite you to join us on a journey of discovery in the realm of AI and education.
+
+What You'll Discover
+
+
+Development on Generative AI
+From GPT-4o to assisting SEN students
+Discipline-Specific Studies
+Uncover AI applications in Psychology, Social Work, Sociology, and Journalism and Communication
+Functionalities and Applications
+From Content Creation to AI mentors
+
+
+For video tutorials, please visit Our Iorad Portal (https://www.iorad.com/help-center/162026?roleId=11284)
+Start Exploring
+Ready to dive in? Here are some starting points:
+
+
+GPT-4o (OpenAI)
+Journalism and Communication
+Content Creation
+
+
+Quick Links
+Catching up with Generative AI Development
+
+
+Notable Flagship Models after GPT-4o
+Multimodality
+AI Video - AI Avatars & Voice Cloning
+AI-powered Search Engines
+Scenario-based Learning with Virtual Characters
+Personalised and Adaptive Learning
+Literature Review
+For SEN (Special Educational Needs) students
+
+
+Discipline-Specific Studies
+
+
+Psychology
+Social Work
+Sociology
+
+
+Functionalities and Applications
+
+
+Grading and Feedback
+Virtual Patient Simulation
+AI mentor
+
+
+Last updated: }
+
+Source: https://georgechengtai.github.io/Generative-AI-use-case-studies/index/

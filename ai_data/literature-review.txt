@@ -1,0 +1,26 @@
+Innovative Generative AI Applications in Higher Education: A Literature Review
+Introduction: The Gap Between Research and Practice
+
+NLP applications in education - Retrieved from Survey of Natural Language Processing for Education: Taxonomy, Systematic Review, and Future Trends (2024) 
+
+It's crucial to note that this literature review, based on Semantic Scholar Open Research Corpus, may not fully reflect the current state of generative AI in education. The rapid pace of technological advancements, pedagogical adoption, and evolving teaching practices often outstrip the academic publication cycle. Therefore, the examples presented here should be viewed as a snapshot of early research and may not represent the most current applications in university settings.
+With this caveat in mind, here are some noteworthy examples from recent studies that showcase potential ways generative AI could enhance teaching and learning in higher education:
+Early Research Findings: Potential Applications of Generative AI
+
+Democratising Machine Learning with No-Code AI
+Leif Su and Jonny Holmstrom (2024) introduced an innovative approach to teaching machine learning. They used a no-code AI platform that allows students from any background to explore data analysis without needing coding skills. Their framework cleverly combines problem-centred learning, hands-on activation, demonstration, application, and integration of concepts across disciplines.
+Supercharging Qualitative Research with AI
+Ion Lixandru's (2024) study demonstrates the potential of AI in social science research. By using ChatGPT to analyse focus group data, Lixandru found that AI analysis closely matched traditional methods while significantly speeding up the process.
+AI as a Creative Partner in Game Development
+Fiona French (2023) brought OpenAI tools into the game development classroom. Students used ChatGPT and DALL-E in their projects, enhancing their problem-solving and design skills.
+Diversifying Medical Education with AI-Generated Cases
+M. Bakkum (2023) tackled the challenge of creating inclusive medical training resources. AI rapidly generated diverse patient scenarios, representing a wide range of demographics and conditions.
+AI as an Art Muse in 3D Design
+James Hutson & Bryan Robertson (2023) integrated AI into 3D design courses. Students used tools like Craiyon and DALLE-2 to generate creative prompts for 3D sculptures and models.
+Exploring AI in Educational Video Enhancement
+Rana Al-Shaikh (2024) investigated the integration of AI tools like OpenAI's Whisper and Google's Bard to enhance educational videos. The research focused on exploring potential benefits in transcription, engagement, and reinforcement techniques for multimodal learning.
+
+Conclusion: A Foundation for Future Exploration
+This review aims to provide a foundation for understanding the potential of generative AI in an academic setting, while acknowledging that practical applications in classrooms may have already advanced beyond these research findings. Teachers and researchers should consider supplementing this information with the latest developments in the field.
+
+Source: https://georgechengtai.github.io/Generative-AI-use-case-studies/literature-review/
