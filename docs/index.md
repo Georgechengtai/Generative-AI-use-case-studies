@@ -26,30 +26,30 @@ comments: false
         ??? info "What LLM Can Do"
             A showcase of current LLM features from NotebookLM to chatbot functionalities and potential educational applications.
             
-            - [What LLMs Can Actually Do Today](common-capacities.md) -- A hands-on showcase of current LLM features: synthetic media, conversational agents, document analysis and creative acceleration, with demos and caveats.
+            - [What LLMs Can Actually Do Today](common-capacities.md) -- A hands-on showcase of current LLM features: synthetic media, conversational agents, web search & analysis and creative content, with demos and caveats.
             
             ??? example "Software Explainer"
                 - [NotebookLM Explainer](notebookLM.md) -- Step-by-step tour of Google's NotebookLM: source ingestion, mind-map visualisation, Q&A and audio summaries for self-study.
             
             ??? example "Functionalities as Chatbot (2024)"
-                - [Content Creation via Generative AI](content-creation.md) -- Recipes for drafting text, generating images, video and interactive exercises with GPT-4o and multimodal tools.
-                - [AI-Assisted Grading and Feedback](grading-and-feedback.md) -- Blueprint for auto-grading pipelines: rubric encoding, chain-of-thought scoring and LMS-ready JSON outputs.
-                - [Role-Playing via Generative AI](role-playing.md) -- Building virtual patient/NPC simulations with branching dialogues, emotional cues and immersive scenario prompts.
-                - [AI Mentors in Education: A New Frontier](mentor.md) -- Framework for 24/7 AI advisors: goal-setting prompts, Socratic scaffolds, knowledge-base integration and custom workflows.
+                - [Content Creation via Generative AI](content-creation.md) -- Recipes for drafting text, generating images, video and interactive exercises with multimodal models.
+                - [AI-Assisted Grading and Feedback](grading-and-feedback.md) -- Prompt for grading and feedback; Knowledge base; Custom GPTs and Blueprint for auto-grading pipelines
+                - [Role-Playing via Generative AI](role-playing.md) -- Building virtual patient/NPC simulations with branching dialogues, emotional cues and immersive scenario prompts. Custom GPTs example.
+                - [AI Mentors in Education: A New Frontier](mentor.md) -- Blueprint for 24/7 AI advisors: goal-setting prompts, knowledge-base integration and custom workflows. Example prompts from TutorAI
             
             ??? example "Applications for Educational Purposes (2024)"
-                - [AI-powered Video Generation](aivideo.md) -- Avatar creation, voice cloning and deepfake pipelines for on-demand teaching videos.
+                - [AI-powered Video Generation](aivideo.md) -- Avatar creation, voice cloning for on-demand videos. Heygen; Synthesia.
                 - [AI-Powered Search Engines](search-engine.md) -- Notable examples of semantic search engine for different purpose: Perplexity, Consensus, and Elicit
-                - [Lifelike Virtual Characters for Scenario-Based Learning](virtual-character.md) -- From holograms to generative agents; prompt patterns for immersive role-play.
-                - [Personalised and Adaptive Learning](palearning.md) -- Diagnostic quizzes, branching content, progress tracking and mastery-based feedback.
-                - [A Literature Review of AI in Higher Education](literature-review.md) -- Survey of AI-enabled pedagogy: no-code ML, qualitative analysis, game-based learning and multimodal demos.
+                - [Lifelike Virtual Characters for Scenario-Based Learning](virtual-character.md) -- 2 past examples before generative AI boom: From holograms to generative agents.
+                - [Personalised and Adaptive Learning](palearning.md) -- Language learning and Tutoring: Duolingo Max; Khanmigo
+                - [A Literature Review of AI in Higher Education](literature-review.md) -- Survey of AI-enabled pedagogy (in 2023): no-code ML, qualitative analysis, game-based learning, multimodal demos, etc.
                 - [Multimodality -- Any-to-Any Generation](multimodality.md) -- Cross-modal AI: text→image/video/audio, semantic search, UI prototyping and data visualisation.
-                - [For SEN Students](sen.md) -- AI accommodations: real-time transcription, text simplification, voice assistants and UDL-aligned study aids.
+                - [For SEN Students](sen.md) -- AI accommodations in Goodwin University: real-time transcription, text simplification, and UDL-aligned study aids.
 
         ??? info "What LLM Cannot Do"
             A reality check on LLM limitations covering common misconceptions, lack of true reasoning and the hallucination problem.
             
-            - [What Teachers Actually Ask: AI Limitations](common-faqs.md) -- Answers to teacher FAQs on LLM reliability, cognition, policy and integrity.
+            - [What Teachers Actually Ask: AI Limitations](common-faqs.md) -- Answers to teacher FAQs on LLM reliability, cognitive impact, content output and academic integrity.
             
             ??? example "Understanding LLMs -- Beyond the Black Box"
                 - [Can AI Think Like Us? The Reality of Machine "Reasoning"](explainability.md) -- Balanced survey of interpretability research: circuit tracing, feature attribution and the gap between pattern-matching and reasoning.
@@ -58,13 +58,13 @@ comments: false
         ??? info "How to Prompt Chatbots"
             A prompt engineering toolkit featuring 4 foundational principles and a curated set of 8 ready-made templates for various tasks.
             
-            - [How to Prompt Chatbots: Overview](pe_g.md) -- Four-step prompt-engineering framework: context, personas, structure and template reuse, with resource links.
+            - [How to Prompt Chatbots: Overview](pe_g.md) -- Four-step prompt-engineering framework: context, personas, structure and template revision and reuse.
             
             ??? example "Guides"
                 - [The Question-First Method: Building Two-Way Conversations](pe_g1.md) -- "Let the model ask clarifying questions first" to surface missing context.
-                - [Creating Specialised AI Personas](pe_g2.md) -- Techniques to "summon" expert personas with tailored role sheets and sample dialogues.
+                - [Creating Specialised AI Personas](pe_g2.md) -- Techniques to "summon" expert personas with tailored role and sample dialogues.
                 - [Fix Your Mind: Meta-Prompting for Better Results](pe_g3.md) -- Meta-prompt template: feed prompt+response back to the model for AI-driven improvement suggestions.
-                - [Forget What's Been Said -- Use What's Already Here](pe_g4.md) -- Advice to adopt community-vetted prompt libraries and custom GPTs instead of reinventing prompts.
+                - [Forget What's Been Said -- Use What's Already Here](pe_g4.md) -- Advice to adopt online prompt libraries and custom GPTs instead of reinventing prompts.
             
                 ???+ example "Further Reading"
                     - [Prompting Skills: Now Baked Into AI](pe_g5.md) -- How chain-of-thought and chain-of-drafts moved from manual tricks to built-in features.
@@ -103,7 +103,7 @@ comments: false
             
             ??? example "Model Evolution"
                 - [Recent AI Models after DeepSeek (March 2025)](2025_new_models.md) -- Side-by-side specs of DeepSeek-R1, Claude 3.7, Grok 3 and GPT-4.5, with real-world caveats.
-                - [Notable Text-based AI Models Released After GPT-4o](flagship-models.md) -- Survey of Claude 3.5 Sonnet, Mixtral 2, Llama 3, Grok 2 and Apple's "Strawberry."
+                - [Notable Text-based AI Models Released After GPT-4o](flagship-models.md) -- Survey of Claude 3.5 Sonnet, Mixtral 2, Llama 3, Grok 2 and OpenAI's "Strawberry."
                 - [Flagship LLM from OpenAI -- GPT-4o](gpt4o.md) -- In-depth on GPT-4o's voice, vision and screen-interaction features, plus benchmark comparisons.
             
             ??? example "DeepSeek"
@@ -112,11 +112,11 @@ comments: false
                 - [DeepSeek's Market Impact](deepseek-impact.md) -- NVIDIA stock crash, 21 M app downloads and global adoption statistics.
                 - [DeepSeek: Applications & Use Cases](deepseek-implications.md) -- Community projects: 3D games, music apps, PDF chat and custom search.
                 - [DeepSeek: Privacy & Safety Considerations](deepseek-privacy.md) -- Data-collection policies, self-hosting trade-offs and best practices for sensitive docs.
-                - [DeepSeek Resources -- Further Reading](deepseek-resources.md) -- Curated video tutorials and technical articles for DeepSeek integration.
+                - [DeepSeek Resources -- Further Reading](deepseek-resources.md) -- Selected video tutorials and technical articles for DeepSeek integration.
             
             ??? example "AI Development (not just LLM)"
-                - [AI Development Tracker: Latest Breakthroughs & Tools (since Mar 2025)](AI_development_tracker.md) -- Chronological diary of Runway Gen-4, GPT-4o image, Gemini 2.5, audio models and more.
-                - [Personal Finding and Sharing (outdated, 2024)](blog.md) -- Personal lab notebook: o1 demos, Claude Artifacts, Qwen2-VL-72B, SocialAI, Copilot experiments and advanced prompt tips.
+                - [AI Development Tracker: Latest Breakthroughs & Tools (since Mar 2025)](AI_development_tracker.md) -- Chronological blog of Runway Gen-4, GPT-4o image, Gemini 2.5, audio models and more.
+                - [Personal Finding and Sharing (outdated, 2024)](blog.md) -- Personal finding notebook: o1 demos, Claude Artifacts, Qwen2-VL-72B, SocialAI, Copilot experiments and advanced prompt tips.
 
 
 
