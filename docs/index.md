@@ -144,6 +144,8 @@ comments: false
     ???- warning "Be specific to get better results"
         Focus your requests with details. Instead of "write about economics," try: **"Explain how supply chain disruptions affect inflation rates, with three historical examples."** 
         
+        [Check this 1 minute Youtube short from @AIProductivityCoach →](https://www.youtube.com/shorts/jUv6QkeuBr0)
+        
         [Learn our prompt engineering framework →](pe_g.md)
 
     ??? example "Try these five academic tasks"
