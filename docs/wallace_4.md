@@ -1,7 +1,3 @@
-
-
-
-
 ### Introduction
 
 ???+ info "Idea Source"

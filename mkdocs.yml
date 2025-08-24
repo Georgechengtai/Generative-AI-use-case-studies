@@ -44,6 +44,7 @@ nav:
       - pe_t6.md
       - pe_t7.md
       - pe_t8.md
+      - pe_t9.md
   - Learn From Whose tried AI:
     - CUHK Use Case - Dr. Mok (ECO):
       - Benchmark Exam Answers in Economics: wallace_1.md
@@ -51,7 +52,20 @@ nav:
       - Simplify, Understand and Convert Codes for Research: wallace_3.md
       - Learn Investment Strategy Through AI-Guided Simulations: wallace_4.md
       - Refining Business Proposals Through AI-Assisted Feedback: wallace_5.md
-    - Case Studies/Experiences shared by other unversities:
+      - Using AI-Generated Images to Teach Economic: wallace_6.md
+    - New Case Studies in 2025:
+      - EmpowerAI Consortium (Nordic-Baltic collaboration):
+        - empowerai.md
+        - empowerai_1.md
+        - empowerai_2.md
+        - empowerai_3.md
+        - empowerai_4.md
+        - empowerai_5.md
+        - empowerai_6.md
+        - empowerai_7.md
+        - empowerai_8.md
+        - empowerai_9.md
+    - Case Studies/Experiences shared by other unversities (2024):
       - Journalism and Communication: journalism-and-communication.md
       - Psychology: psychology.md
       - Social Work: social-work.md
@@ -70,7 +84,8 @@ nav:
         - Privacy Considerations: deepseek-privacy.md
         - Extra Resources: deepseek-resources.md
     - AI development (not just LLM):
-      - Latest Breakthoughs & Tools (since Mar 2025): AI_development_tracker.md
+      - Latest Model Breakthoughs (since Aug 2025, GPT 5): AI_development_tracker_2.md
+      - Latest Breakthoughs & Tools (since Mar 2025, GPT-4o image): AI_development_tracker.md
       - Personal Finding and Sharing (outdated, 2024) : blog.md
 
 theme:
