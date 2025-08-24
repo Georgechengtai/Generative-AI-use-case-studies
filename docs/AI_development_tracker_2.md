@@ -1,9 +1,10 @@
 # AI Development Tracker: Mar–Aug 2025 (GPT‑5, Grok 4, Claude Opus 4.1)
 
 ???- quote "Featuring models and features"
-    OpenAI — GPT‑5
-    xAI — Grok 4 and Grok 4 Heavy (DeepSearch, Think, X integration)
-    Anthropic — Claude Opus 4.1 (Hybrid/Extended Thinking, Claude Code, Artifacts)
+
+    - OpenAI — GPT‑5
+    - xAI — Grok 4 and Grok 4 Heavy (DeepSearch, Think, X integration)
+    - Anthropic — Claude Opus 4.1 (Hybrid/Extended Thinking, Claude Code, Artifacts)
 
 !!! note "Editor note"
     GPT-5 does have good potentials and [new (or improved) features](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/gpt-5-the-7-new-features-enabling-real-world-use-cases/4444839). My personal experience: it is less clever (always guess your hidden intention wrongly) but more faithful (if you can clarify what you want, you get what you want) and humble (fewer "bullshiting" and less sycophantic). There're always room for improvement, but I start to think we may be at a peak where non-technical users are quite satisfied from what they got, and thus no improvements (in terms of pure model capacity) are significant for daily use cases. 
@@ -49,8 +50,8 @@ If you use the API, you can control how hard it thinks with the reasoning_effort
 
 ## Community‑shared demo use case of GPT‑5 (a few selected)
 
-- Builds full apps in one shot — watch it clone Excel/Word, Twitter, auth pages, checkout, and - dashboards in minutes: https://www.youtube.com/watch?v=BUDmHYI6e3g
+- [Builds full apps in one shot — watch it clone Excel/Word, Twitter, auth pages, checkout, and - dashboards in minutes](https://www.youtube.com/watch?v=BUDmHYI6e3g)
 - Solves puzzles and runs physics sims — Rubik’s Cubes (up to 20×20×20), double pendulum, cloth/fluid, and ray tracing
 - Makes games and 3D visuals fast — Snake, 3D Game of Life, flight sim, 3D typography, and a Lego builder
 - Works with text and images — turns images into layouts (hexagon test), draws precise SVGs, generates images, and uses location data
-- One‑shot game build — GPT‑5 creates an original Pokémon‑style clone in one shot: https://x.com/VictorTaelin/status/1953585599988084769
+- [One‑shot game build — GPT‑5 creates an original Pokémon‑style clone in one shot](https://x.com/VictorTaelin/status/1953585599988084769)
