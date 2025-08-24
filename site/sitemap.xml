@@ -2,82 +2,270 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/2025_new_models/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/AI_development_tracker/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/AI_development_tracker_2/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/aivideo/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/blog/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/common-capacities/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/common-faqs/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/content-creation/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/deepseek-impact/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/deepseek-implications/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/deepseek-overview/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/deepseek-privacy/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/deepseek-resources/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/deepseek/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_1/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_2/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_3/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_4/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_5/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_6/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_7/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_8/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/empowerai_9/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/explainability/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/flagship-models/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/gpt4o/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/grading-and-feedback/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/hallucination/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/journalism-and-communication/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/literature-review/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/mentor/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/multimodality/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/notebookLM/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/palearning/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_g/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_g1/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_g2/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_g3/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_g4/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_g5/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_g6/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t1/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t2/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t3/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t4/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t5/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t6/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t7/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t8/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/pe_t9/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/psychology/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/role-playing/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/search-engine/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/sen/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/social-work/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/sociology/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
          <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/virtual-character/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <lastmod>2025-08-24</lastmod>
     </url>
     <url>
-         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/virtual-patient-simulation/</loc>
-         <lastmod>2025-02-26</lastmod>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/wallace_1/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/wallace_2/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/wallace_3/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/wallace_4/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/wallace_5/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/wallace_6/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/storage/index_2024/</loc>
+         <lastmod>2025-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://georgechengtai.github.io/Generative-AI-use-case-studies/storage/temp_for_index_2025_backup/</loc>
+         <lastmod>2025-08-24</lastmod>
     </url>
 </urlset>

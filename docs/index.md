@@ -118,6 +118,10 @@ comments: false
                 - [AI Development Tracker: Latest Breakthroughs & Tools (since Mar 2025)](AI_development_tracker.md) -- Chronological blog of Runway Gen-4, GPT-4o image, Gemini 2.5, audio models and more.
                 - [Personal Finding and Sharing (outdated, 2024)](blog.md) -- Personal finding notebook: o1 demos, Claude Artifacts, Qwen2-VL-72B, SocialAI, Copilot experiments and advanced prompt tips.
 
+    ???- abstract "Changelog"
+
+        Aug 2025: [2025 Social Science Use Cases (EmpowerAI)](empowerai_1.md) added. [Latest models](AI_development_tracker_2.md) introduced. Some figure and stats updated. Minor typos fixed.
+
 
 
 !!! tip "Getting Started with AI chatbots"
