@@ -22,6 +22,7 @@ These images spark curiosity, make theories memorable, and lower barriers to par
 Below are three sample prompts and outputs that illustrate how economic debates can be visualised.
 
 ???+ example "Case 1: Ricardo vs. List"
+
     ```text
     A scholarly illustration of David Ricardo debating Friedrich List.
 
@@ -30,9 +31,11 @@ Below are three sample prompts and outputs that illustrate how economic debates 
     Banner: “Free Trade vs. Protectionism”.
     Style: academic, clean diagrams, minimal text.
     ```
+    
     ![Free Trade vs Protectionism](images/ricardo_list.png)
 
 ???+ example "Case 2: Samuelson vs. Lucas"
+
     ```text
     A modern infographic illustration of Paul Samuelson debating Robert Lucas.
 
@@ -41,12 +44,15 @@ Below are three sample prompts and outputs that illustrate how economic debates 
     Banner: “Stabilization Policy vs. Policy Ineffectiveness”.
     Style: clean, academic, textbook‑like.
     ```
+
     ![Stablization Policy vs Policy Ineffectiveness](images/samuelson_lucas.png)
 
 ???+ example "Case 3: Keynes vs. Hayek"
+
     ```text
     A digital illustration of John Maynard Keynes and Friedrich Hayek at podiums during a debate. Each has a speech bubble: Keynes’s bubble says “Government Intervention!” and Hayek’s says “Free Markets!”. Above them, a banner reads “The Great Economic Debate”. Realistic but slightly stylized, like a political cartoon.
     ```
+
     ![Intervene vs Free Market](images/keynes_hayek.png)
 
 
