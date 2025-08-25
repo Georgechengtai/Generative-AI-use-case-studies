@@ -120,7 +120,8 @@ comments: false
 
     ???- abstract "Changelog"
 
-        Aug 2025: [2025 Social Science Use Cases (EmpowerAI)](empowerai_1.md) added. [Latest models](AI_development_tracker_2.md) introduced. Some figure and stats updated. Minor typos fixed.
+        - Jul 2025: Figures and stats on [Hallicination](hallucination.md) updated. Minor typos corrected.
+        - Aug 2025: [2025 Social Science Use Cases (EmpowerAI)](empowerai_1.md) added. [Latest models](AI_development_tracker_2.md) introduced.
 
 
 

@@ -1,5 +1,3 @@
-
-
 # Why LLMs Make Things Up: The Reality of AI Hallucination
 
 ???+ info "Original Sources"
@@ -27,6 +25,10 @@ When an AI confidently tells you that Napoleon died in 1832 (he died in 1821, bu
 
     - Top performer: 84.6% (Gemini-2.0-flash-001) 
     - Bottom of top 15: 56.8% (DeepSeek-R1)
+
+    !!! note "As of 14th Jul, 2025"
+
+        THe latest frontier model from Google, Gemini-2.5-Pro (more accurately, its 0605 version) scores 87.8%, a 3.2% improvement. I personally believe late-2025 models which are not yet on the list yet (e.g. Grok 4) will likely perform better too.
 
     **For faithfulness hallucinations** ([Vectara's Hughes Hallucination Evaluation Model (HHEM)](https://github.com/vectara/hallucination-leaderboard) on *summarising documents* ONLY):
 
