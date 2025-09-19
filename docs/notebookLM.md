@@ -2,6 +2,8 @@
 title: "NotebookLM Explainer"
 ---
 
+# NotebookLM Explainer
+
 !!! note "Editor's Note"
     NotebookLM helps you extract insights from documents through interactive exploration. It organises your research and lets you ask questions on your selected sources. Perfect for our self-learning! Watch our quick tutorial and see how it works: 
     

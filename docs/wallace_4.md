@@ -1,3 +1,5 @@
+# Learn Investment Strategy Through AI-Guided Simulations
+
 ### Introduction
 
 ???+ info "Idea Source"

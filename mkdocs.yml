@@ -147,6 +147,20 @@ plugins:
       enabled: !ENV [OFFLINE, false]
   # - privacy:
   #    log_level: error
+  # # - with-pdf:
+  #     output_path: pdf
+  #     toc_level: 2
+  #     cover_page: true
+  #     title: Generative AI Use Case Studies
+  - print-site:
+      add_to_navigation: true         # keep if you want the "Print Site" item
+      print_page_title: 'Print Site'
+      print_page_basename: 'print_page'
+      path_to_pdf: 'print_page.pdf'
+      add_table_of_contents: false
+      # enumerate_headings: false       # <— add this (stops injecting the h1-hiding style)
+      # enumerate_figures: false        # (optional) if you enabled figures enumeration
+
 
 extra:
   analytics:
@@ -193,6 +207,8 @@ extra:
 
 extra_css:
   - style.css
+  - print.css
+  - zz-overrides.css
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -219,6 +235,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+  - toc:
+      toc_depth: 2
+      
 copyright: |
   &copy; 2024 <a href="https://www.cuhk.edu.hk/english/faculties/social-science.html" target="_blank" rel="noopener">Faculty of Social Science, CUHK</a> <a href="#__consent">[Change cookie settings]</a>

@@ -1,4 +1,6 @@
-## Fix Your Mind: Meta-Prompting for Better Results
+# Fix your Mind
+
+## Meta-Prompting for Better Results
 
 ???+ info "Original Source"
     Adapted from common prompt engineering practice and community discussions about reflective AI usage techniques.

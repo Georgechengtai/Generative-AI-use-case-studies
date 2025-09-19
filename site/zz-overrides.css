@@ -1,0 +1,5 @@
+/* Re-enable H1 headings everywhere */
+.md-typeset h1 {
+  display:block !important;
+  visibility:visible !important;
+}
