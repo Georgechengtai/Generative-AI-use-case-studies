@@ -8623,6 +8623,26 @@ It addresses four key areas of concern: <strong>information reliability</strong>
 </li>
 </ol>
 </details>
+<pre class="mermaid"><code>graph TD
+    A[Past Exam Papers] --&gt; B[Input to ChatGPT]
+    B --&gt; C[Generated Exam Answers]
+
+    subgraph "Dr. Wallace Mok"
+    C --&gt; D[Identify Accuracy &amp; Relevance]
+    D --&gt; E[Document Gaps]
+    end
+
+    subgraph "Student Engagement"
+    E --&gt; F[Discuss with Students]
+    F --&gt; G[Clarify &amp; Elaborate]
+    G --&gt; H[Receive Student Feedback]
+    end
+
+    H -.-&gt; |Refine Prompts| B
+    H -.-&gt; |Spot Students' Knowledge Gap| A
+
+    G --&gt; I[Enhanced Understanding]
+    I -.-&gt; |Students Perform Better| A</code></pre>
 <h3 id="wallace_1-prompt-approach-2025-ai-processing-pipeline">Prompt Approach (2025 AI Processing Pipeline)</h3>
 <p>Dr. Mok selected a two-stage process for processing exam papers. First converting them to LaTeX format for better handling of mathematical notation, then generating detailed answers. This approach ensures accurate representation of complex economics equations and structured responses. (to prevent unexpected layout issues when feeding docx/pdf files directly)</p>
 <details class="example" open="open">
@@ -8691,15 +8711,6 @@ It addresses four key areas of concern: <strong>information reliability</strong>
 </span><span id="__span-1-49"><a id="__codelineno-1-49" name="__codelineno-1-49" href="#wallace_1-__codelineno-1-49"></a>Please provide the LaTeX conversion of the attached document.
 </span></code></pre></div>
 </details>
-<h3 id="wallace_1-key-findings-and-evidence-if-you-can-share-a-few-interesting-comparisons">Key Findings (and Evidence, if you can share a few interesting comparisons)</h3>
-<h4 id="wallace_1-strengths-of-ai-generated-answers">Strengths of AI-Generated Answers</h4>
-<ul>
-<li>[To be filled with your own observations]</li>
-</ul>
-<h4 id="wallace_1-limitations-and-gaps">Limitations and Gaps</h4>
-<ul>
-<li>[To be filled with your own observations]</li>
-</ul>
 <pre class="mermaid"><code>graph TD
     A[Past Exam Papers] --&gt; B[Input to ChatGPT]
     B --&gt; C[AI-Generated Answers]
@@ -8711,27 +8722,7 @@ It addresses four key areas of concern: <strong>information reliability</strong>
 
     D -.-&gt; |Refine Prompts| B
     G -.-&gt; |Student Feedback| D
-    H -.-&gt; |Continuous Improvement| A</code></pre>
-<pre class="mermaid"><code>graph TD
-    A[Past Exam Papers] --&gt; B[Input to ChatGPT]
-    B --&gt; C[Generated Exam Answers]
-
-    subgraph "Dr. Wallace Mok"
-    C --&gt; D[Identify Accuracy &amp; Relevance]
-    D --&gt; E[Document Gaps]
-    end
-
-    subgraph "Student Engagement"
-    E --&gt; F[Discuss with Students]
-    F --&gt; G[Clarify &amp; Elaborate]
-    G --&gt; H[Receive Student Feedback]
-    end
-
-    H -.-&gt; |Refine Prompts| B
-    H -.-&gt; |Spot Students' Knowledge Gap| A
-
-    G --&gt; I[Enhanced Understanding]
-    I -.-&gt; |Students Perform Better| A</code></pre></body></html></section><section class="print-page" id="wallace_2" heading-number="5.1.2"><html><head>
+    H -.-&gt; |Continuous Improvement| A</code></pre></body></html></section><section class="print-page" id="wallace_2" heading-number="5.1.2"><html><head>
         <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
             remove_material_navigation();remove_mkdocs_theme_navigation();

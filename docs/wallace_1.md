@@ -31,6 +31,30 @@ What makes his approach particularly valuable is how he uses these AI outputs as
     
     3. **Comparative Discussion**: Dr. Mok uses the generated answers as teaching tools, highlighting both strengths and shortcomings to guide students toward better conceptual understanding. *He plans to share more details about his evaluation methods and how he refined this approach to suit his teaching style.*
 
+
+```mermaid
+graph TD
+    A[Past Exam Papers] --> B[Input to ChatGPT]
+    B --> C[Generated Exam Answers]
+    
+    subgraph "Dr. Wallace Mok"
+    C --> D[Identify Accuracy & Relevance]
+    D --> E[Document Gaps]
+    end
+    
+    subgraph "Student Engagement"
+    E --> F[Discuss with Students]
+    F --> G[Clarify & Elaborate]
+    G --> H[Receive Student Feedback]
+    end
+    
+    H -.-> |Refine Prompts| B
+    H -.-> |Spot Students' Knowledge Gap| A
+    
+    G --> I[Enhanced Understanding]
+    I -.-> |Students Perform Better| A
+```
+
 ### Prompt Approach (2025 AI Processing Pipeline)
 
 Dr. Mok selected a two-stage process for processing exam papers. First converting them to LaTeX format for better handling of mathematical notation, then generating detailed answers. This approach ensures accurate representation of complex economics equations and structured responses. (to prevent unexpected layout issues when feeding docx/pdf files directly)
@@ -102,15 +126,6 @@ Dr. Mok selected a two-stage process for processing exam papers. First convertin
     Please provide the LaTeX conversion of the attached document.
     ```
 
-### Key Findings (and Evidence, if you can share a few interesting comparisons)
-
-#### Strengths of AI-Generated Answers
-- [To be filled with your own observations]
-
-#### Limitations and Gaps
-- [To be filled with your own observations]
-
-
 ```mermaid
 graph TD
     A[Past Exam Papers] --> B[Input to ChatGPT]
@@ -124,27 +139,4 @@ graph TD
     D -.-> |Refine Prompts| B
     G -.-> |Student Feedback| D
     H -.-> |Continuous Improvement| A
-```
-
-```mermaid
-graph TD
-    A[Past Exam Papers] --> B[Input to ChatGPT]
-    B --> C[Generated Exam Answers]
-    
-    subgraph "Dr. Wallace Mok"
-    C --> D[Identify Accuracy & Relevance]
-    D --> E[Document Gaps]
-    end
-    
-    subgraph "Student Engagement"
-    E --> F[Discuss with Students]
-    F --> G[Clarify & Elaborate]
-    G --> H[Receive Student Feedback]
-    end
-    
-    H -.-> |Refine Prompts| B
-    H -.-> |Spot Students' Knowledge Gap| A
-    
-    G --> I[Enhanced Understanding]
-    I -.-> |Students Perform Better| A
 ```

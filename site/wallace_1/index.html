@@ -3306,6 +3306,26 @@
 </li>
 </ol>
 </details>
+<pre class="mermaid"><code>graph TD
+    A[Past Exam Papers] --&gt; B[Input to ChatGPT]
+    B --&gt; C[Generated Exam Answers]
+
+    subgraph "Dr. Wallace Mok"
+    C --&gt; D[Identify Accuracy &amp; Relevance]
+    D --&gt; E[Document Gaps]
+    end
+
+    subgraph "Student Engagement"
+    E --&gt; F[Discuss with Students]
+    F --&gt; G[Clarify &amp; Elaborate]
+    G --&gt; H[Receive Student Feedback]
+    end
+
+    H -.-&gt; |Refine Prompts| B
+    H -.-&gt; |Spot Students' Knowledge Gap| A
+
+    G --&gt; I[Enhanced Understanding]
+    I -.-&gt; |Students Perform Better| A</code></pre>
 <h3 id="prompt-approach-2025-ai-processing-pipeline">Prompt Approach (2025 AI Processing Pipeline)</h3>
 <p>Dr. Mok selected a two-stage process for processing exam papers. First converting them to LaTeX format for better handling of mathematical notation, then generating detailed answers. This approach ensures accurate representation of complex economics equations and structured responses. (to prevent unexpected layout issues when feeding docx/pdf files directly)</p>
 <details class="example" open="open">
@@ -3374,15 +3394,6 @@
 </span><span id="__span-1-49"><a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a>Please provide the LaTeX conversion of the attached document.
 </span></code></pre></div>
 </details>
-<h3 id="key-findings-and-evidence-if-you-can-share-a-few-interesting-comparisons">Key Findings (and Evidence, if you can share a few interesting comparisons)</h3>
-<h4 id="strengths-of-ai-generated-answers">Strengths of AI-Generated Answers</h4>
-<ul>
-<li>[To be filled with your own observations]</li>
-</ul>
-<h4 id="limitations-and-gaps">Limitations and Gaps</h4>
-<ul>
-<li>[To be filled with your own observations]</li>
-</ul>
 <pre class="mermaid"><code>graph TD
     A[Past Exam Papers] --&gt; B[Input to ChatGPT]
     B --&gt; C[AI-Generated Answers]
@@ -3395,26 +3406,6 @@
     D -.-&gt; |Refine Prompts| B
     G -.-&gt; |Student Feedback| D
     H -.-&gt; |Continuous Improvement| A</code></pre>
-<pre class="mermaid"><code>graph TD
-    A[Past Exam Papers] --&gt; B[Input to ChatGPT]
-    B --&gt; C[Generated Exam Answers]
-
-    subgraph "Dr. Wallace Mok"
-    C --&gt; D[Identify Accuracy &amp; Relevance]
-    D --&gt; E[Document Gaps]
-    end
-
-    subgraph "Student Engagement"
-    E --&gt; F[Discuss with Students]
-    F --&gt; G[Clarify &amp; Elaborate]
-    G --&gt; H[Receive Student Feedback]
-    end
-
-    H -.-&gt; |Refine Prompts| B
-    H -.-&gt; |Spot Students' Knowledge Gap| A
-
-    G --&gt; I[Enhanced Understanding]
-    I -.-&gt; |Students Perform Better| A</code></pre>
 
 
 
@@ -3435,7 +3426,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    2025-05-15
+    2025-09-19
   </span>
 
     
