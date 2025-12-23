@@ -16,6 +16,9 @@ Generative AI avatars are advanced digital characters created using artificial i
 
 Two prominent platforms offering this technology are [HeyGen](https://www.heygen.com/) and [Synthesia](https://www.synthesia.io/).
 
+!!! tip "The Digital Twin Concept"
+    For a deeper dive into how educators are using "Digital Twins" (combining custom avatars with voice cloning) to scale their presence, see our dedicated explainer: **[The Digital Twin: AI Avatars & Voice](digital-twin.md)**.
+
 Here's how they work and can be used in education:
 
 1. Content Creation: Educators input a script or lesson plan into the AI system. The avatar then generates a video of itself delivering this content, complete with natural speech and appropriate gestures.
@@ -38,4 +41,5 @@ Similarly, companies like ElevenLabs offer intuitive ways to clone your own voic
 ## Final Remarks
 
 Generative AI can also yield realistic replicas of celebrities, and literally anybody if one has enough data for training. While it certainly sounds impressive to teach a sociology lesson by Max Weber and Karl Marx, or hold a debate on economics by Adam Smith, John Maynard Keynes and Milton Friedman, it remains controversial on whether we have the "simulation right" of influencers in the world. While it may seem educational to have historical figures "teach" lessons, there's a risk of misrepresentation or putting words in someone's mouth they never actually said.
+
 
