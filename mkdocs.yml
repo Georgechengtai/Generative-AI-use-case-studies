@@ -3,6 +3,9 @@ site_url: https://georgechengtai.github.io/Generative-AI-use-case-studies
 nav:
   - Home: index.md
   - What LLM Can Do:
+    - Working with LLM imperfection:
+      - Why AI Disappoints: wli_1.md
+      - What Harness Engineering Looks Like: wli_2.md
     - Agentic Workflow, Fully Explained: agent.md
     - AGI & Future of Education: agi-education.md
     - What LLMs Can Actually Do Today: common-capacities.md
