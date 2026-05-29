@@ -2,6 +2,8 @@
 title: Automated Candidate Screening Pipeline (Python)
 ---
 
+# Automated Candidate Screening Pipeline (Python)
+
 ???+ info "Case Study Information"
 
     - **Project:** Taleo Attachment Downloader & Screener

@@ -2,6 +2,8 @@
 title: AI-Generated Video Explainers (NotebookLM)
 ---
 
+# AI-Generated Video Explainers (NotebookLM)
+
 ???+ info "Case Study Information"
 
     - **Project:** NotebookLM Video Overview
