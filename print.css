@@ -1,0 +1,144 @@
+/* --- SCREEN: Scrollable secondary ToC --- */
+@media screen {
+.md-sidebar--secondary {
+position: sticky;
+top: var(--md-header-height, 0);
+max-height: calc(100vh - var(--md-header-height, 0));
+}
+.md-sidebar--secondary .md-sidebar__inner {
+max-height: 100%;
+overflow-y: auto;
+overscroll-behavior: contain;
+padding-right: .25rem;
+}
+.md-sidebar--secondary .md-sidebar__inner::-webkit-scrollbar { width: 8px; }
+.md-sidebar--secondary .md-sidebar__inner::-webkit-scrollbar-thumb {
+background: rgba(0,0,0,.25);
+border-radius: 4px;
+}
+.md-sidebar--secondary .md-sidebar__inner:hover::-webkit-scrollbar-thumb {
+background: rgba(0,0,0,.40);
+}
+}
+
+/* --- Force first H1 to show (screen + print) --- */
+.md-typeset > h1:first-of-type,
+.md-typeset h1.md-content__title,
+h1.md-content__title {
+display: block !important;
+visibility: visible !important;
+margin-top: 0.5rem;
+font-weight: 700;
+color: var(--md-default-fg-color, #000) !important;
+}
+
+/* If hidden attribute was added */
+.md-typeset h1[hidden],
+h1.md-content__title[hidden] {
+display: block !important;
+visibility: visible !important;
+}
+
+/* Print-specific sizing and page layout */
+@media print {
+
+.md-typeset > h1:first-of-type {
+/* font-size: 1.8rem !important; */
+/* margin: 0 0 .75em; */
+/* color: #000 !important; */
+}
+
+/* Start each new top-level section on fresh page except first */
+.md-typeset h1:not(:first-of-type) {
+break-before: page;
+-webkit-break-before: page;
+page-break-before: always;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+break-after: avoid;
+-webkit-break-after: avoid;
+page-break-after: avoid;
+}
+}
+pre,
+table,
+blockquote,
+img,
+.admonition {
+break-inside: avoid;
+-webkit-break-inside: avoid;
+page-break-inside: avoid;
+page-break-inside: avoid;
+}
+
+/* Make full ToC visible in print */
+.md-sidebar--secondary,
+.md-sidebar--secondary .md-sidebar__inner {
+max-height: none !important;
+overflow: visible !important;
+}
+
+/* PRINT: Improve (nested) callouts */
+@media print {
+
+/* Keep the title (and first paragraph) with the start of the callout */
+.md-typeset .admonition > .admonition-title,
+.md-typeset .admonition > .admonition-title + p {
+break-after: avoid;
+page-break-after: avoid;
+}
+
+/* Base callout: remove shadow, allow sensible splitting if long */
+.md-typeset .admonition {
+page-break-inside: auto;
+break-inside: auto;
+margin: 0 0 .9rem;
+padding: .65rem .9rem .75rem;
+box-shadow: none;
+}
+
+/* First nested level: flatten background & simplify border */
+.md-typeset .admonition .admonition {
+background: transparent !important;
+box-shadow: none;
+border: 0;
+border-left: 3px solid currentColor;
+margin: .45rem 0 .45rem .6rem;
+padding: .45rem .6rem .55rem;
+page-break-inside: auto;
+break-inside: auto;
+}
+
+/* 2nd nested level and deeper: lighter, dotted guide only */
+.md-typeset .admonition .admonition .admonition {
+border: 0;
+border-left: 2px dotted currentColor;
+background: none !important;
+padding: .35rem .55rem .45rem;
+margin-left: .7rem;
+}
+
+/* Keep orphan/widow lines tidy */
+.md-typeset .admonition p {
+orphans: 3;
+widows: 3;
+}
+
+/* Slightly compact lists and code inside callouts */
+.md-typeset .admonition ul,
+.md-typeset .admonition ol {
+margin: .4rem 0 .6rem;
+}
+.md-typeset .admonition pre {
+font-size: .85em;
+}
+
+/* Avoid extra bottom gap at end of a section */
+.md-typeset .admonition:last-child {
+margin-bottom: 0;
+}
+}
+
